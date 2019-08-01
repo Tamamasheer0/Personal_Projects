@@ -83,6 +83,8 @@ def quandl_stock_data(symbol, verbose=False):
 def optimize_portfolio(assets, simulations=5000):
     num_assets = len(assets)
     portfolio = closing_prices(assets[0])
+    print(f'[{0}] Retrieving Stock Data: {assets[0].upper()}')
+
     for i, asset in enumerate(assets[1:]):
         print(f'[{i + 1}] Retrieving Stock Data: {asset}')
         add_stock = closing_prices(asset)
@@ -115,7 +117,9 @@ def optimize_portfolio(assets, simulations=5000):
     return dict(ranked_df.iloc[0])
 
 
-def backtest_portfolio_performance(pfolio):
+# Portfolio Performance Back-Testing Function
+
+def backtest_portfolio(pfolio):
     exclude = ["Return", "Sharpe", "Variance"]
     assets = [(a, wt) for a, wt in pfolio.items() if a not in exclude]
 
@@ -123,6 +127,8 @@ def backtest_portfolio_performance(pfolio):
     back_test = closing_prices(assets[0][0]).set_index("Date")
     back_test = np.log(back_test / back_test.shift(1)).iloc[1:]
     back_test = back_test.apply(lambda x: x * assets[0][1])
+    print(f'\nTicker: {assets[0][0]} \tPortfolio Weight: {assets[0][1]}')
+    print(back_test.head())
 
     for allocation in assets[1:]:
         stock = allocation[0]
@@ -141,8 +147,23 @@ def backtest_portfolio_performance(pfolio):
     return back_test
 
 
-# Helper Functions - Optimize Portfolio, Backtest Portfolio Performance
+# Portfolio Performance Evaluation Function
+def evaluate_portfolio(rtns):
+    RTNm = pd.read_csv("S&P500.csv")[["Date", "Close"]]
+    RTNm["Date"] = pd.to_datetime(RTNm["Date"])
+    RTNm = RTNm.rename(columns={"Close": "RTNm"}).set_index("Date")
+    RTNm = np.log(RTNm / RTNm.shift(1)).iloc[1:]
 
+    rtns = pd.merge(rtns, RTNm, on="Date", how="inner")
+    rtns["Excess"] = rtns["RTNp"] - rtns["RTNm"]
+    rtns["Compare"] = rtns["Excess"] > 0
+    rtns["Compare"] = rtns["Compare"].apply(lambda x: "Outperform" if x else "Underperform")
+    print(rtns.head())
+
+    return rtns[["RTNp", "RTNm", "Excess", "Compare"]]
+
+
+# Helper Functions - Optimize Portfolio, Backtest Portfolio Performance
 
 def closing_prices(stock):
     price_data = quandl_stock_data(stock) \
