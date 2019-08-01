@@ -31,4 +31,4 @@ Registered Email: TamashiroRyan@gmail.com
 Account Password: Standard Login 1 -- DB Main
 Key: 9KKjMKA3wJ-S1DeHLf4x
 '''
-quandl_api_key = "9KKjMKA3wJ-S1DeHLf4x"
+quandl_api_key = "oaVsrcUmaesTBfV8xxgi"
