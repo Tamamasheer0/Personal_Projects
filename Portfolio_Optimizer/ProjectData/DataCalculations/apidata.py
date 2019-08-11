@@ -1,6 +1,6 @@
 '''
 Module: Data API Functions
-Created On: 2019-07-05              Last Modified: 2019-07-05
+Created On: 2019-07-05              Last Modified: 2019-08-07
 **************************************************************************
     **READ ME**
 
@@ -94,6 +94,8 @@ def optimize_portfolio(assets, simulations=5000):
     portfolio.set_index("Date", inplace=True)
 
     print(f'\nOptimizing Portfolio Weights >> Simulations: x {simulations}')
+
+    # Monte Carlo Simulation
     portfolio_log = []
     portfolio_sim = {}
     for i in range(simulations):
@@ -118,6 +120,7 @@ def optimize_portfolio(assets, simulations=5000):
 
 
 # Portfolio Performance Back-Testing Function
+
 
 def backtest_portfolio(pfolio):
     exclude = ["Return", "Sharpe", "Variance"]
@@ -148,6 +151,8 @@ def backtest_portfolio(pfolio):
 
 
 # Portfolio Performance Evaluation Function
+
+
 def evaluate_portfolio(rtns):
     RTNm = pd.read_csv("S&P500.csv")[["Date", "Close"]]
     RTNm["Date"] = pd.to_datetime(RTNm["Date"])
@@ -160,10 +165,152 @@ def evaluate_portfolio(rtns):
     rtns["Compare"] = rtns["Compare"].apply(lambda x: "Outperform" if x else "Underperform")
     print(rtns.head())
 
-    return rtns[["RTNp", "RTNm", "Excess", "Compare"]]
+    return rtns
 
+
+'''
+Category: Machine Learning Model Training
+
+Functions:
+    0.  setup_ml_training_data_db
+    1.  generate_random_portfolio
+    2.  compile_random_portfolio
+    2.  generate_ml_training_data
+    3.  update_ml_training_database
+
+Description:
+    General Utility Functions to Generate/Simulate Random Portflios Which Are Later
+    Used to Train our Neural Network Machine Learning Training Model. The ML Data
+    Generation Process Occurs Over Four Steps
+
+        1.  Initialize & Configure DB:
+                Using Python A MySQL/SQLite Database is Initialized and Configured
+                in Order to Store the Simulated Portfolio Data That is Generated
+                Which We Later Use to Train Our Machine Learning Model
+
+        2.  Generate Random Test Portfolios:
+                [Input]  Params: List of Stock Ticker Symbols
+                [Output] Return: DataFrame - 5 Year Historic Closing Prices
+
+                Randomly Selects Between 5-10 Stocks in Which to Include in the
+                Test Portfolio. Using API calls to Quandl (Database) it Pulls Historic
+                Closing Price Data For the Past 5 Years and Aggregates it w/
+                Associated Benchmark Performance into a DataFrame Which is Then
+                Returned as the Functions Output.
+
+        3.  Calculate Portfolio Statistics:
+                [Input]  Params: DataFrame of Portflio Closing Prices
+                [Output] Return: Dictionary Descriptive Portfolio Statistics
+
+                Using the Returned Output From the Previous Function, Step 3
+                Calculates the Following Portfolio Statistics:
+                    a.  Counts Number of Stocks
+                    b.  Portfolio Regresson Beta
+                    c.  Portfolio Expected Return
+                    d.  Portfolio Expected Variance
+                    e.  Portfolio Sharpe Ratio
+
+        4.  Update ML Training Database
+                [Input]  Params: List of Dictiories - Portfolio Stats
+                [Output] Return: None
+
+'''
+
+#   Random Test Portfolio Generation Function
+
+
+def generate_random_portfolio():
+    stocklist_df = pd.read_csv("StockTickers.csv")
+    stocklist = list(dict(stocklist_df)["Tickers"])
+
+    random_portfolio = []
+    for i in range(random.randint(6, 10)):
+        add_stock = random.choice(stocklist)
+        if add_stock not in random_portfolio:
+            random_portfolio.append(add_stock)
+            del add_stock
+
+    print("\nRandom Generated Portfolio", random_portfolio)
+    return random_portfolio
+
+#   Compile Random Portfolio Data -- Pull Historic Data & Aggregate to DataFrame
+
+
+def compile_random_portfolio(p_stocks):
+    print(f"\n<Quandl API> Stock Data: {p_stocks[0]}")
+    sim_portfolio = closing_prices(p_stocks[0])
+    for stock in p_stocks[1:]:
+        print(f"<Quandl API> Stock Data: {stock}")
+        add_stock = closing_prices(stock)
+        sim_portfolio = pd.merge(sim_portfolio, add_stock, on="Date", how="inner")
+        del add_stock
+
+    benchmark = pd.read_csv("S&P500.csv")[["Date", "Close"]]
+    benchmark["Date"] = pd.to_datetime(benchmark["Date"])
+    benchmark = benchmark.rename(columns={"Close": "SP500"})
+
+    output_portfolio = pd.merge(sim_portfolio, benchmark, on="Date", how="inner")
+
+    print("\n[Output] Portfolio Closing Prices\n", output_portfolio.head())
+    return output_portfolio.set_index("Date")
+
+#   Portfolio Descriptive Statistics Calculation Function
+
+
+def generate_ml_training_data(sim_portfolio):
+    p_stocks = list(sim_portfolio.columns)
+    p_stocks.remove("SP500")
+    benchmark_portfolio = sim_portfolio["SP500"]
+    stock_portfolio = sim_portfolio[p_stocks]
+
+    print('\n[Training] Stock Portfolio\n', stock_portfolio.head())
+
+    weights = np.random.random(len(p_stocks))
+    weights /= np.sum(weights)
+
+    p_allocation = [(pos[0], round(pos[1], 4)) for pos in zip(p_stocks, weights)]
+    print("\n[Portfolio] Asset Allocation:\n", p_allocation)
+
+    pct_returns = round(stock_portfolio.pct_change().iloc[1:], 4)
+    pct_returns["RTNp"] = np.sum(pct_returns, axis=1)
+    print("\n[Portfolio] Daily Returns:")
+    print(pct_returns.head())
+
+    # Calculate Portfolio Statistics (Return, Variance, Sharpe)
+    p_rtn = exp_portfolio_return(stock_portfolio, weights)
+    p_var = exp_portfolio_variance(stock_portfolio, weights)
+
+    mod_sharpe = mod_sharpe_ratio(p_rtn, p_var)
+
+    unweighted_perform = round((stock_portfolio.iloc[-1] / stock_portfolio.iloc[0]) - 1, 4)
+    print("\n[Portfolio] Unweighted Returns")
+    print(unweighted_perform.head())
+
+    weighted_perform = round(np.sum(unweighted_perform[p_stocks] * weights), 4)
+    print(f"\n[Portfolio] Weighted Return: {weighted_perform}")
+
+    benchmark_perform = round((benchmark_portfolio[-1] / benchmark_portfolio[0]) - 1, 4)
+
+    # Portfolio Regression Beta Calculation
+    p_beta = "N/A"
+    print(f"\n[Benchmark | S&P500] Perfomance: {benchmark_perform}")
+
+    # Need to Validate This Risk Adjusted Calculation
+    pfolio_radj_perform = ((weighted_perform / p_var) > (benchmark_perform / benchmark_perform.var()))
+    pfolio_stats = {
+        "CTp": len(p_stocks),
+        "RTNp": round(p_rtn, 4),
+        "VARp": round(p_var, 4),
+        "SHRp": round(mod_sharpe, 4),
+        "BETAp": p_beta,
+        "SP500": round(benchmark_perform, 4),
+        "PvSP": pfolio_radj_perform
+    }
+
+    return pfolio_stats
 
 # Helper Functions - Optimize Portfolio, Backtest Portfolio Performance
+
 
 def closing_prices(stock):
     price_data = quandl_stock_data(stock) \
