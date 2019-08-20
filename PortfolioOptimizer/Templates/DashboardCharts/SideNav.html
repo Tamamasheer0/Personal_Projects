@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Chart.JS Library Ref -->
+    <script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+    <!-- D3 Library Ref -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Dashboard</title>
+  </head>
+
+  <style>
+    body {
+      font-family: "Lato, san-serif";
+    }
+
+    .SideNav {
+      height: 100%;
+      width:0;
+      position: fixed;
+      z-index: 1;
+      top:0;
+      left:0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+    }
+
+    .SideNav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size:25px;
+      color: #818181;
+      display: block;
+      transition: 0.5s;
+    }
+
+    .SideNav a:hover {
+      color:#f1f1f1;
+    }
+
+    .SideNav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 36px;
+      margin-left: 50px;
+    }
+
+    #dashboard {
+      transition: margin-left .5s;
+      padding: 16px;
+    }
+  </style>
+
+
+  <body>
+    <!-- Side Navigation Bar -- Portfolio Input -->
+    <div id="DashSideNav" class="SideNav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="container-fluid" style="background-color:darkgray">
+        <h5>Fluid Container Group</h5>
+      </div>
+    </div>
+
+    <div id="dashboard" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <button class="btn btn-outline-dark btn-sm" onclick="openNav()">Portfolio</button>
+          <br />
+          <hr>
+        </div>
+      </div>
+      <!-- Dashboard Grid - Chart Row 1 -->
+      <div class="row">
+        <!-- Primary Chart -->
+        <div class="col-lg-8">
+          <h5>[Main] Dashboard Chart Visualization</h5>
+          <canvas id="chart-main"></canvas>
+        </div>
+
+        <!-- Secondary Chart 1/3 -->
+        <div class="col-lg-4">
+          <canvas id="chart-radar"></canvas>
+
+          <br />
+          <div class="btn-group" role="group" style="width:100%">
+            <button class="btn btn-outline-dark btn-sm" style="width:25%">Add</button>
+            <button class="btn btn-outline-dark btn-sm" style="width:25%">Del</button>
+            <button class="btn btn-outline-dark btn-sm" style="width:25%">S&P 500</button>
+            <button class="btn btn-outline-dark btn-sm" style="width:25%">Reset</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+    <!-- Optional JavaScript -->
+
+    <!-- Radar Chart -- Portfolio Metrics -->
+    <script>
+      var color = Chart.helpers.color;                        // Library: Chart Color Refs
+      var htmlTag = document.getElementById("chart-radar");   // HTML Tag: Radar Chart Canvas
+      var configRadar = {
+          type:"radar",
+          data:{
+              labels:[
+                  ["Sharpe", "Ratio"],
+                  ["Portfolio", "Return"],
+                  ["Portfolio", "Variance"],
+                  ["Portfolio", "Beta"],
+                  ["5-Year", "Performance"]
+              ],
+              datasets:[{
+                  label:"Portfolio",
+                  backgroundColor:color("red").alpha(0.2).rgbString(),
+                  pointBackgroundColor:"red",
+                  lineTension:0,
+                  data: [.171, .182, .127, .259, .165]
+              },{
+                  label:"S&P 500",
+                  backgroundColor:color("blue").alpha(0.2).rgbString(),
+                  pointBackgroundColor:"blue",
+                  lineTension:0,
+                  data:[.311, .211, .088, .213, .286]
+              }],
+              options:{
+                  legend:{position:"top"},
+                  title:{
+                      display:true,
+                      text:"Portfolio Metrics",
+                      scale:{
+                          ticks:{
+                              beginAtZero:false
+                          } // ticks
+                      } // scale
+                  }, // title
+              } // options
+          } // data
+      } // configRadar
+
+      window.onload = function(){
+          console.log(htmlTag)
+          console.log(configRadar)
+          window.myRadar = new Chart(htmlTag, configRadar)
+      }
+    </script>
+
+    <!-- Side Navigation Menu - Functions -->
+    <script>
+      function openNav(){
+        document.getElementById("DashSideNav").style.width = "300px";
+        document.getElementById("dashboard").style.marginLeft = "300px";
+      }
+
+      function closeNav(){
+        document.getElementById("DashSideNav").style.width = "0px";
+        document.getElementById("dashboard").style.marginLeft = "0px";
+      }
+    </script>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

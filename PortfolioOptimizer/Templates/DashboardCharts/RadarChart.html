@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://www.chartjs.org/dist/2.8.0/Chart.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+
+    <title>RadarChart</title>
+  </head>
+  <body style="background:rgb(25,25,25);">
+    <h3>Portfolio Dashboard</h3>
+    <div class="container-fluid">
+      <!-- Row #1 -->
+      <div class="row">
+        <!-- Column #1 -- Chart #1 Location -->
+        <div class="col-sm-4" style="background-color:darkgray;">
+          <h6>Col-1: Chart #1</h6>
+        </div>
+
+        <!-- Column #2 -- Chart #2 Location -->
+        <div class="col-sm-4" style="background-color:darkgray;">
+          <h6>Col-2: Chart #2</h6>
+        </div>
+
+        <!-- Column #3 -- Radar Chart -->
+        <div class="col-sm-4" style="background-color:lightgray;">
+          <h6>Col-3: Radar Chart</h6>
+
+          <!-- Initialize Charting Canvas -->
+          <canvas id="chart-radar"></canvas>
+          <br />
+          <!-- Button Group: Add Radar Chart Overlay-->
+          <div class="btn-group" role="group" style="width:100%">
+            <button class="btn btn-outline-dark btn-sm" style="width:25%">AMZN</button>
+            <button class="btn btn-outline-dark btn-sm" style="width:25%">JPM</button>
+            <button class="btn btn-outline-dark btn-sm" style="width:25%">HAL</button>
+            <button class="btn btn-outline-dark btn-sm" style="width:25%">S&P 500</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Optional JavaScript: Portfolio Radar Chart -->
+    <script src="/static/js/RadarChart.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
