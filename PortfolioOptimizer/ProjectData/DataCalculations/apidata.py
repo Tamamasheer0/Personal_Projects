@@ -285,6 +285,8 @@ def generate_ml_training_data(sim_portfolio):
     # Calculate Portfolio Statistics (Return, Variance, Sharpe)
     p_rtn = exp_portfolio_return(stock_portfolio, weights)
     p_var = exp_portfolio_variance(stock_portfolio, weights)
+    sp500_rtn = benchmark_portfolio.mean() * 250
+    SP500_var = benchmark_portfolio.var() * 250
 
     mod_sharpe = mod_sharpe_ratio(p_rtn, p_var)
 
@@ -302,7 +304,7 @@ def generate_ml_training_data(sim_portfolio):
     print(f"\n[Benchmark | S&P500] Perfomance: {benchmark_perform}")
 
     # Need to Validate This Risk Adjusted Calculation
-    pfolio_radj_perform = ((weighted_perform / p_var) > (benchmark_perform / benchmark_perform.var()))
+    pfolio_radj_perform = ((weighted_perform / p_var) > (benchmark_perform / sp500_var))
     pfolio_stats = {
         "CTp": len(p_stocks),
         "RTNp": round(p_rtn, 4),
