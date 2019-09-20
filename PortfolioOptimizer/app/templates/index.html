@@ -16,26 +16,118 @@
     <title>Dashboard</title>
   </head>
 
+  <style>
+    #main {
+      display:block;
+      height:1400px;
+      padding:15px;
+    }
+    #primary {
+      background-color:black;
+      box-shadow:3px 3px 10px 5px lightgray;
+      display:flex;
+      height:50%;
+      width:100%;
+      padding:10px;
+    }
+    #primaryChartA {
+      background-color:black;
+      box-shadow:3px 3px 3px 5px 3px lightgray;
+      display:block;
+      height:100%;
+      width:55%;
+      padding:5px;
+    }
+    #primaryChartB {
+      background-color:black;
+      box-shadow:3px 3px 3px 5px 3px lightgray;
+      display:block;
+      height:100%;
+      width:40%;
+      padding:5px;
+    }
+    #secondary {
+      box-shadow:3px 3px 10px 5px lightgray;
+      display:flex;
+      height:33%;
+      width:100%;
+      padding:10px;
+    }
+    #secondaryChartA {
+      background-color:black;
+      box-shadow:3px 3px 3px 5px 3px lightgray;
+      display:block;
+      height:100%;
+      width:33.3%;
+      padding:5px;
+    }
+    #secondaryChartB {
+      background-color:black;
+      box-shadow:3px 3px 3px 5px 3px lightgray;
+      display:block;
+      height:100%;
+      width:33.3%;
+      padding:5px;
+    }
+    #secondaryChartC {
+      background-color:black;
+      box-shadow:3px 3px 3px 5px 3px lightgray;
+      display:block;
+      height:100%;
+      width:33.3%;
+      padding:5px;
+    }
+
+  </style>
+
+
   <body class="bg-dark">
-    <div class="row bg-dark">
-      <div class="col-7">
-        <div class="card bg-dark shadow">
-          <div class="card-body shadow rounded bg-dark">
-            <canvas id="chart-efficient-frontier"></canvas>
+    <div class="container-fluid bg-dark" id="main">
+      <!--Row #1 -->
+      <div class="container-fluid" id="primary">
+        <!-- Main Chart #1 -->
+        <div id="primaryChartA">
+          <div class="container">
+            <canvas id="chart-efficient-frontier" style="height:100%; padding-top:2.5%;"></canvas>
+          </div>
+        </div>
+        <!-- Main Chart #2 -->
+        <div id="primaryChartB">
+          <div class="container">
+            <canvas id="volatility-chart" style="height:100%; padding-top:5%;"></canvas>
           </div>
         </div>
       </div>
 
+      <br />
 
-      <div class="col-5 align-items-center">
-        <div class="card bg-dark shadow h-100">
-          <div class="card-body shadow rounded bg-dark">
-            <canvas id="volatility-chart"></canvas>
-          </div>
+      <!-- Row #2 -->
+      <div class="container-fluid bg-dark" id="secondary">
+        <!-- Secondary Chart #1 -->
+
+        <div class="bg-dark" id="secondaryChartA">
+          <canvas id="chart-3"></canvas>
         </div>
-      </div>
 
+
+
+        <!-- Secondary Chart #2 -->
+        <div class="bg-dark" id="secondaryChartB">
+          <canvas id="chart-4"></canvas>
+        </div>
+
+
+
+        <!-- Secondary Chart #3 -->
+        <div class="bg-dark" id="secondaryChartC">
+          <canvas id="chart-5"></canvas>
+        </div>
+
+      </div>
     </div>
+
+
+
 
     <!-- Custom JavaScript Files -->
     <script src="{{ url_for('static', filename='js/dash-tools.js') }}"></script>

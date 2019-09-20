@@ -2,6 +2,14 @@ body {
     font-family: "Lato, san-serif";
   }
 
+  .chart {
+    height: 60%;
+    width: 70%;
+    display: block;
+    margin: 0px;
+
+  }
+
   .SideNav {
     height: 100%;
     width:0;

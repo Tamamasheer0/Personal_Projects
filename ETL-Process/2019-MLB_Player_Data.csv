@@ -62,14 +62,17 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 35170,Oscar,Mercado,0,,,,,-1,,,,,,
 32574,Yasiel,Puig,28,6-2,240 lbs.,"December 7, 1990",Santa Clara,66,RF,6 years,Cleveland Indians,R,R,None
 33339,Franmil,Reyes,24,6-5,275 lbs.,"July 5, 1995",Sabana Grande de Palenque,32,RF,1 year,Cleveland Indians,R,R,None
+33713,Bradley,Zimmer,26,6-5,220 lbs.,"November 27, 1992",La Jolla,4,CF,2 years,Cleveland Indians,L,R,San Francisco
+40360,Tyler,Alexander,0,,,,,-1,,,,,,
 34401,Matthew,Boyd,28,6-3,234 lbs.,"February 2, 1991",Mercer Island,48,SP,4 years,Detroit Tigers,L,L,Oregon State
 31673,Jose,Cisnero,30,6-3,245 lbs.,"April 11, 1989",Bajos de Haina,67,RP,2 years,Detroit Tigers,R,R,None
 33627,Buck,Farmer,28,6-4,232 lbs.,"February 20, 1991",Conyers,45,RP,5 years,Detroit Tigers,R,L,Georgia Tech
 41132,Matt,Hall,26,6-0,200 lbs.,"July 23, 1993",Independence,64,RP,1 year,Detroit Tigers,L,L,Missouri State
-5842,Edwin,Jackson,35,6-3,210 lbs.,"September 9, 1983",Ulm,19,SP,16 years,Detroit Tigers,R,R,None
+5842,Edwin,Jackson,36,6-3,210 lbs.,"September 9, 1983",Ulm,19,SP,16 years,Detroit Tigers,R,R,None
 33760,Joe,Jimenez,24,6-3,272 lbs.,"January 17, 1995",San Juan,77,RP,2 years,Detroit Tigers,R,R,None
 41422,David,Mckay,0,,,,,-1,,,,,,
 33199,Daniel,Norris,26,6-2,185 lbs.,"April 25, 1993",Johnson City,44,SP,5 years,Detroit Tigers,L,L,None
+32140,Nick,Ramirez,0,,,,,-1,,,,,,
 33509,Zac,Reininger,26,6-3,170 lbs.,"January 28, 1993",San Antonio,26,RP,2 years,Detroit Tigers,R,B,Hillsboro Junior College
 39804,Gregory,Soto,0,,,,,-1,,,,,,
 34880,Daniel,Stumpf,28,6-2,208 lbs.,"January 4, 1991",Humble,68,RP,3 years,Detroit Tigers,L,L,San Jacinto Coll. TX (J.C.)
@@ -103,8 +106,11 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 33833,Jorge,Lopez,26,6-3,195 lbs.,"February 10, 1993",Cayey,28,RP,3 years,Kansas City Royals,R,R,None
 35389,Kevin,Mccarthy,27,6-3,215 lbs.,"February 22, 1992",Rockville Centre,61,RP,3 years,Kansas City Royals,R,R,Marist
 31092,Mike,Montgomery,30,6-5,215 lbs.,"July 1, 1989",Mission Hills,21,RP,4 years,Kansas City Royals,L,L,None
+36500,Jake,Newberry,24,6-2,195 lbs.,"November 20, 1994",San Diego,68,RP,1 year,Kansas City Royals,R,R,None
+34857,Randy,Rosario,25,6-1,200 lbs.,"May 18, 1994",Nagua,43,RP,2 years,Kansas City Royals,L,L,None
 36112,Eric,Skoglund,26,6-7,200 lbs.,"October 26, 1992",Sarasota,53,SP,2 years,Kansas City Royals,L,L,UCF
 36087,Glenn,Sparkman,27,6-2,210 lbs.,"May 11, 1992",Ganado,57,SP,2 years,Kansas City Royals,R,R,Wharton Co. JC TX
+40327,Gabe,Speier,0,,,,,-1,,,,,,
 36175,Josh,Staumont,0,,,,,-1,,,,,,
 32689,Kyle,Zimmer,0,,,,,-1,,,,,,
 39850,Nick,Dini,0,,,,,-1,,,,,,
@@ -123,8 +129,11 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 32558,Jorge,Soler,27,6-4,230 lbs.,"February 25, 1992",Havana,12,RF,5 years,Kansas City Royals,R,R,None
 32152,Bubba,Starling,0,,,,,-1,,,,,,
 32811,Jose,Berrios,25,6-0,205 lbs.,"May 27, 1994",Bayamon,17,SP,3 years,Minnesota Twins,R,R,None
+42214,Randy,Dobnak,0,,,,,-1,,,,,,
 33668,Tyler,Duffey,28,6-3,220 lbs.,"December 27, 1990",Houston,21,RP,4 years,Minnesota Twins,R,R,Rice
 31745,Sam,Dyson,31,6-1,212 lbs.,"May 7, 1988",Tampa,49,RP,7 years,Minnesota Twins,R,R,South Carolina
+31053,Kyle,Gibson,31,6-6,215 lbs.,"October 23, 1987",Greenfield,44,SP,6 years,Minnesota Twins,R,R,Missouri
+40965,Brusdar,Graterol,0,,,,,-1,,,,,,
 33333,Ryne,Harper,0,,,,,-1,,,,,,
 35902,Trevor,Hildenberger,28,6-2,211 lbs.,"December 15, 1990",San Jose,39,RP,2 years,Minnesota Twins,R,R,California
 36052,Zack,Littell,23,6-4,220 lbs.,"October 5, 1995",Mebane,52,RP,1 year,Minnesota Twins,R,R,None
@@ -134,6 +143,8 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 33671,Taylor,Rogers,28,6-3,170 lbs.,"December 17, 1990",Littleton,55,RP,3 years,Minnesota Twins,L,L,Kentucky
 36060,Fernando,Romero,24,6-0,215 lbs.,"December 24, 1994",San Juan de la Maguana,77,SP,1 year,Minnesota Twins,R,R,None
 29168,Sergio,Romo,36,5-11,185 lbs.,"March 4, 1983",Brawley,54,RP,11 years,Minnesota Twins,R,R,Mesa State
+41120,Devin,Smeltzer,0,,,,,-1,,,,,,
+40870,Cody,Stashak,0,,,,,-1,,,,,,
 33219,Kohl,Stewart,24,6-3,195 lbs.,"October 7, 1994",Houston,53,SP,1 year,Minnesota Twins,R,R,None
 33265,Lewis,Thorpe,0,,,,,-1,,,,,,
 34878,Willians,Astudillo,27,5-9,185 lbs.,"October 14, 1991",Barcelona,64,C,1 year,Minnesota Twins,R,R,None
@@ -146,14 +157,14 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 32525,Jorge,Polanco,26,5-11,200 lbs.,"July 5, 1993",San Pedro de Macoris,11,SS,5 years,Minnesota Twins,B,R,None
 31260,Miguel,Sano,26,6-4,272 lbs.,"May 11, 1993",San Pedro de Macoris,22,3B,4 years,Minnesota Twins,R,R,None
 31988,Jonathan,Schoop,27,6-1,225 lbs.,"October 16, 1991",Willemstad,16,2B,6 years,Minnesota Twins,R,R,None
-32655,Byron,Buxton,25,6-2,190 lbs.,"December 18, 1993",Baxley,25,CF,4 years,Minnesota Twins,R,R,None
+31200,Ronald,Torreyes,27,5-8,151 lbs.,"September 2, 1992",Libertad,74,2B,4 years,Minnesota Twins,R,R,None
 33417,Jake,Cave,26,6-0,200 lbs.,"December 4, 1992",Hampton,60,RF,1 year,Minnesota Twins,L,L,None
 31870,Max,Kepler,26,6-4,220 lbs.,"February 10, 1993",Berlin,26,RF,4 years,Minnesota Twins,L,L,None
 31172,Ryan,Lamarre,30,6-1,210 lbs.,"November 21, 1988",Royal Oak,27,CF,4 years,Minnesota Twins,R,L,Michigan
 31944,Eddie,Rosario,27,6-1,180 lbs.,"September 28, 1991",Guayama,20,LF,4 years,Minnesota Twins,L,R,None
 37798,Lamonte,Wade,0,,,,,-1,,,,,,
 6242,Nelson,Cruz,39,6-2,230 lbs.,"July 1, 1980",Las Matas de Santa Cruz,23,DH,14 years,Minnesota Twins,R,R,None
-33499,Shawn,Armstrong,28,6-2,225 lbs.,"September 11, 1990",New Bern,43,RP,4 years,Baltimore Orioles,R,R,East Carolina
+33499,Shawn,Armstrong,29,6-2,225 lbs.,"September 11, 1990",New Bern,43,RP,4 years,Baltimore Orioles,R,R,East Carolina
 33138,Ty,Blach,28,6-1,213 lbs.,"October 20, 1990",Denver,53,SP,3 years,Baltimore Orioles,L,R,Creighton
 33513,Richard,Bleier,32,6-3,215 lbs.,"April 16, 1987",Davie,48,RP,3 years,Baltimore Orioles,L,L,Florida Gulf Coast
 33124,Aaron,Brooks,29,6-4,225 lbs.,"April 27, 1990",Montclair,38,SP,3 years,Baltimore Orioles,R,R,Cal State San Bernardino
@@ -166,8 +177,9 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 34226,David,Hess,26,6-2,180 lbs.,"July 10, 1993",Tullahoma,41,RP,1 year,Baltimore Orioles,R,R,Tennessee Tech
 32757,Branden,Kline,0,,,,,-1,,,,,,
 39948,John,Means,26,6-3,230 lbs.,"April 24, 1993",Olathe,67,SP,1 year,Baltimore Orioles,L,L,West Virginia
-37911,Evan,Phillips,24,6-2,215 lbs.,"September 11, 1994",Salisbury,58,RP,1 year,Baltimore Orioles,R,R,UNC Wilmington
+37911,Evan,Phillips,25,6-2,215 lbs.,"September 11, 1994",Salisbury,58,RP,1 year,Baltimore Orioles,R,R,UNC Wilmington
 35135,Tanner,Scott,25,6-2,220 lbs.,"July 22, 1994",Mogadore,66,RP,2 years,Baltimore Orioles,L,R,Howard Coll. TX (J.C.)
+39711,Tayler,Scott,0,,,,,-1,,,,,,
 35053,Chandler,Shepherd,0,,,,,-1,,,,,,
 34950,Dillon,Tate,0,,,,,-1,,,,,,
 31734,Asher,Wojciechowski,30,6-4,235 lbs.,"December 21, 1988",Hardeeville,29,SP,2 years,Baltimore Orioles,R,R,Citadel
@@ -192,11 +204,12 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 32147,Matt,Barnes,29,6-4,210 lbs.,"June 17, 1990",Danbury,32,RP,5 years,Boston Red Sox,R,R,UConn
 30189,Ryan,Brasier,32,6-0,225 lbs.,"August 26, 1987",Wichita Falls,70,RP,2 years,Boston Red Sox,R,R,Weatherford Coll. TX (J.C.)
 36631,Colten,Brewer,26,6-4,230 lbs.,"October 29, 1992",Dallas,54,RP,1 year,Boston Red Sox,R,R,None
-30134,Andrew,Cashner,32,6-6,235 lbs.,"September 11, 1986",Conroe,48,SP,9 years,Boston Red Sox,R,R,TCU
+30134,Andrew,Cashner,33,6-6,235 lbs.,"September 11, 1986",Conroe,48,SP,9 years,Boston Red Sox,R,R,TCU
 30147,Jhoulys,Chacin,31,6-3,215 lbs.,"January 7, 1988",Maracaibo,43,SP,10 years,Boston Red Sox,R,R,None
 31174,Nathan,Eovaldi,29,6-2,225 lbs.,"February 13, 1990",Houston,17,SP,7 years,Boston Red Sox,R,R,None
 40502,Darwinzon,Hernandez,0,,,,,-1,,,,,,
 34400,Brian,Johnson,28,6-4,235 lbs.,"December 7, 1990",Lakeland,61,SP,3 years,Boston Red Sox,L,L,Florida
+36490,Trevor,Kelley,0,,,,,-1,,,,,,
 35297,Travis,Lakins,0,,,,,-1,,,,,,
 29966,Rick,Porcello,30,6-5,205 lbs.,"December 27, 1988",Morristown,22,SP,10 years,Boston Red Sox,R,R,None
 35487,Bobby,Poyner,26,6-0,205 lbs.,"December 1, 1992",Wellington,66,RP,1 year,Boston Red Sox,L,L,Florida
@@ -206,7 +219,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 34719,Josh,Smith,32,6-2,220 lbs.,"August 7, 1987",Margate,67,RP,3 years,Boston Red Sox,R,R,David Lipscomb University
 36173,Josh,Taylor,0,,,,,-1,,,,,,
 36191,Hector,Velazquez,30,6-0,180 lbs.,"November 26, 1988",Sonora,76,RP,2 years,Boston Red Sox,R,R,None
-33171,Marcus,Walden,30,6-0,195 lbs.,"September 13, 1988",Fresno,64,RP,1 year,Boston Red Sox,R,R,Fresno City Coll. CA (J.C.)
+33171,Marcus,Walden,31,6-0,195 lbs.,"September 13, 1988",Fresno,64,RP,1 year,Boston Red Sox,R,R,Fresno City Coll. CA (J.C.)
 33563,Ryan,Weber,29,6-1,180 lbs.,"August 12, 1990",St. Petersburg,65,RP,4 years,Boston Red Sox,R,R,Saint Petersburg FL (J.C.)
 32973,Brandon,Workman,31,6-5,235 lbs.,"August 13, 1988",Arlington,44,RP,4 years,Boston Red Sox,R,R,Texas
 31443,Juan,Centeno,29,5-9,195 lbs.,"November 16, 1989",Arecibo,68,C,6 years,Boston Red Sox,L,R,None
@@ -225,22 +238,26 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 29550,Gorkys,Hernandez,32,6-1,196 lbs.,"September 7, 1987",Güiria,47,LF,5 years,Boston Red Sox,R,R,None
 31065,J.D.,Martinez,32,6-3,220 lbs.,"August 21, 1987",Miami,28,LF,8 years,Boston Red Sox,R,R,Nova Southeastern
 36160,Chance,Adams,25,6-0,215 lbs.,"August 10, 1994",Scottsdale,72,SP,1 year,New York Yankees,R,R,Dallas Baptist University
+31122,Dellin,Betances,31,6-8,265 lbs.,"March 23, 1988",New York,68,RP,6 years,New York Yankees,R,R,None
 31054,Zack,Britton,31,6-3,195 lbs.,"December 22, 1987",Panorama City,53,RP,8 years,New York Yankees,L,L,None
 34837,Luis,Cessa,27,6-0,210 lbs.,"April 25, 1992",Cordoba,85,RP,3 years,New York Yankees,R,R,None
 30442,Aroldis,Chapman,31,6-4,212 lbs.,"February 28, 1988",Holguin,54,RP,9 years,New York Yankees,L,L,None
 36480,Nestor,Cortes,24,5-11,210 lbs.,"December 10, 1994",San Jose de las Lajas,67,RP,1 year,New York Yankees,L,R,None
-33319,Ryan,Dull,29,5-11,175 lbs.,"October 2, 1989",Winston-Salem,73,RP,4 years,New York Yankees,R,R,UNC-Asheville
 30665,Cory,Gearrin,33,6-1,205 lbs.,"April 14, 1986",Chattanooga,35,RP,7 years,New York Yankees,R,R,Mercer
 33660,Domingo,German,27,6-2,175 lbs.,"August 4, 1992",San Pedro de Macoris,55,SP,2 years,New York Yankees,R,R,None
 33325,Chad,Green,28,6-3,210 lbs.,"May 24, 1991",Greenville,57,RP,3 years,New York Yankees,R,L,Louisville
 28817,J.A.,Happ,36,6-5,205 lbs.,"October 19, 1982",Peru,34,SP,12 years,New York Yankees,L,L,Northwestern
+34699,Ben,Heller,28,6-3,205 lbs.,"August 5, 1991",Milwaukee,61,SP,2 years,New York Yankees,R,R,Olivet Nazarene
 31867,Tommy,Kahnle,30,6-1,235 lbs.,"August 7, 1989",Latham,48,RP,5 years,New York Yankees,R,R,LYNN UNIVERSITY
 39807,Jonathan,Loaisiga,24,5-11,165 lbs.,"November 2, 1994",Managua,43,SP,1 year,New York Yankees,R,R,None
 32641,Tyler,Lyons,31,6-4,210 lbs.,"February 21, 1988",Lubbock,70,RP,6 years,New York Yankees,L,L,Oklahoma State
+38173,Jordan,Montgomery,26,6-6,225 lbs.,"December 27, 1992",Sumter,47,SP,2 years,New York Yankees,L,L,South Carolina
 29705,Adam,Ottavino,0,,,,,-1,,,,,,
 31980,James,Paxton,30,6-4,235 lbs.,"November 6, 1988",Delta,65,SP,6 years,New York Yankees,L,L,Kentucky
+4553,Cc,Sabathia,39,6-6,300 lbs.,"July 21, 1980",Vallejo,52,SP,18 years,New York Yankees,L,L,None
 33150,Masahiro,Tanaka,30,6-3,215 lbs.,"November 1, 1988",Hyogo,19,SP,5 years,New York Yankees,R,R,None
-30545,Kyle,Higashioka,0,,,,,-1,,,,,,
+33737,Stephen,Tarpley,26,6-1,180 lbs.,"February 17, 1993",Gilbert,71,RP,1 year,New York Yankees,L,R,Scottsdale CC AZ
+30545,Kyle,Higashioka,29,6-0,200 lbs.,"April 20, 1990",Huntington Beach,66,C,2 years,New York Yankees,R,R,None
 29470,Austin,Romine,30,6-1,220 lbs.,"November 22, 1988",Lake Forest,28,C,7 years,New York Yankees,R,R,None
 31095,Gary,Sanchez,26,6-2,230 lbs.,"December 2, 1992",Santo Domingo,24,C,4 years,New York Yankees,R,R,None
 36485,Thairo,Estrada,0,,,,,-1,,,,,,
@@ -248,24 +265,25 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 31376,Didi,Gregorius,29,6-3,205 lbs.,"February 18, 1990",Amsterdam,18,SS,7 years,New York Yankees,L,R,None
 30765,Dj,Lemahieu,31,6-4,215 lbs.,"July 13, 1988",Visalia,26,2B,8 years,New York Yankees,R,R,LSU
 33804,Gleyber,Torres,22,6-1,200 lbs.,"December 13, 1996",Caracas,25,2B,1 year,New York Yankees,R,R,None
-32721,Gio,Urshela,27,6-0,220 lbs.,"October 11, 1991",Cartagena,29,3B,2 years,New York Yankees,R,R,None
-33367,Breyvic,Valera,27,5-11,160 lbs.,"January 8, 1992",Bejuma,70,2B,2 years,New York Yankees,B,R,None
+32721,Gio,Urshela,27,6-0,220 lbs.,"October 11, 1991",Cartagena,29,3B,3 years,New York Yankees,R,R,None
+33367,Breyvic,Valera,27,5-11,160 lbs.,"January 8, 1992",Bejuma,74,2B,2 years,New York Yankees,B,R,None
 35201,Luke,Voit,28,6-3,225 lbs.,"February 13, 1991",Wildwood,45,1B,2 years,New York Yankees,R,R,Missouri State
 33878,Tyler,Wade,24,6-1,185 lbs.,"November 23, 1994",Murrieta,14,SS,2 years,New York Yankees,L,R,None
 33188,Clint,Frazier,25,6-1,190 lbs.,"September 6, 1994",Decatur,77,LF,2 years,New York Yankees,R,R,None
 29174,Brett,Gardner,36,5-11,195 lbs.,"August 24, 1983",Holly Hill,11,LF,11 years,New York Yankees,L,L,Charleston
 33192,Aaron,Judge,27,6-7,282 lbs.,"April 26, 1992",Linden,99,RF,3 years,New York Yankees,R,R,Fresno State
 6455,Cameron,Maybin,32,6-3,215 lbs.,"April 4, 1987",Asheville,38,LF,12 years,New York Yankees,R,R,None
-33956,Mike,Tauchman,28,6-2,200 lbs.,"December 3, 1990",Palatine,39,CF,2 years,New York Yankees,L,L,Bradley
 5904,Edwin,Encarnacion,36,6-1,230 lbs.,"January 7, 1983",La Romana,30,DH,14 years,New York Yankees,R,R,None
 38102,Nick,Anderson,0,,,,,-1,,,,,,
 34542,Anthony,Banda,26,6-2,190 lbs.,"August 10, 1993",Corpus Christi,53,SP,2 years,Tampa Bay Rays,L,L,San Jacinto Coll. TX (J.C.)
 36723,Jalen,Beeks,26,5-11,195 lbs.,"July 10, 1993",Fayetteville,68,RP,1 year,Tampa Bay Rays,L,L,Arkansas
 39103,Diego,Castillo,25,6-3,240 lbs.,"January 18, 1994",Cabrera,63,RP,1 year,Tampa Bay Rays,R,R,None
+33831,Jose,De,27,6-2,190 lbs.,"August 7, 1992",Isabela,87,RP,2 years,Tampa Bay Rays,R,R,Southern University
 31615,Oliver,Drake,32,6-4,215 lbs.,"January 13, 1987",Worcester,47,RP,4 years,Tampa Bay Rays,R,R,Navy
+42180,Peter,Fairbanks,0,,,,,-1,,,,,,
 33190,Tyler,Glasnow,26,6-8,220 lbs.,"August 23, 1993",Newhall,20,SP,3 years,Tampa Bay Rays,R,L,None
 35872,Andrew,Kittredge,29,6-1,235 lbs.,"March 17, 1990",Spokane,36,RP,2 years,Tampa Bay Rays,R,R,Washington
-36088,Hoby,Milner,28,6-2,165 lbs.,"January 13, 1991",Dallas,60,RP,2 years,Tampa Bay Rays,L,L,Texas
+41010,Brendan,Mckay,0,,,,,-1,,,,,,
 29155,Charlie,Morton,35,6-5,215 lbs.,"November 12, 1983",Flemington,50,SP,11 years,Tampa Bay Rays,R,R,None
 33403,Emilio,Pagan,28,6-3,205 lbs.,"May 7, 1991",Simpsonville,15,RP,2 years,Tampa Bay Rays,R,L,Belmont Abbey
 40364,Colin,Poche,0,,,,,-1,,,,,,
@@ -299,10 +317,10 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 33157,Sam,Gaviglio,29,6-2,205 lbs.,"May 22, 1990",Ashland,43,RP,2 years,Toronto Blue Jays,R,R,Oregon State
 32762,Ken,Giles,28,6-2,210 lbs.,"September 20, 1990",Albuquerque,51,RP,5 years,Toronto Blue Jays,R,R,Yavapai College
 40947,Anthony,Kay,0,,,,,-1,,,,,,
-33139,Derek,Law,28,6-3,215 lbs.,"September 14, 1990",Pittsburgh,64,RP,3 years,Toronto Blue Jays,R,R,Miami-Dade CC FL
+33139,Derek,Law,29,6-3,215 lbs.,"September 14, 1990",Pittsburgh,64,RP,3 years,Toronto Blue Jays,R,R,Miami-Dade CC FL
+41089,Elvis,Luciano,0,,,,,-1,,,,,,
 35773,Tim,Mayza,27,6-3,220 lbs.,"January 15, 1992",Allentown,58,RP,2 years,Toronto Blue Jays,L,L,Millersville
 39709,Thomas,Pannone,25,6-0,195 lbs.,"April 28, 1994",Cranston,45,RP,1 year,Toronto Blue Jays,L,L,College of Southern Nevada
-29195,Clayton,Richard,35,6-5,240 lbs.,"September 12, 1983",Lafayette,2,SP,10 years,Toronto Blue Jays,L,L,Michigan
 36380,Jordan,Romano,0,,,,,-1,,,,,,
 36387,Justin,Shafer,26,6-2,195 lbs.,"September 18, 1992",Lake Wales,50,RP,1 year,Toronto Blue Jays,R,R,Florida
 35997,Brock,Stewart,27,6-3,210 lbs.,"October 3, 1991",Normal,35,RP,3 years,Toronto Blue Jays,R,L,Illinois State
@@ -311,6 +329,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 37726,Jacob,Waguespack,0,,,,,-1,,,,,,
 40941,T.J.,Zeuch,0,,,,,-1,,,,,,
 35004,Danny,Jansen,24,6-2,230 lbs.,"April 15, 1995",Elmhurst,9,C,1 year,Toronto Blue Jays,R,R,None
+33271,Luke,Maile,28,6-3,225 lbs.,"February 6, 1991",Edgewood,21,C,4 years,Toronto Blue Jays,R,R,Kentucky
 33250,Reese,Mcguire,24,5-11,215 lbs.,"March 2, 1995",Seattle,10,C,1 year,Toronto Blue Jays,L,R,None
 38904,Bo,Bichette,0,,,,,-1,,,,,,
 37639,Cavan,Biggio,0,,,,,-1,,,,,,
@@ -323,11 +342,12 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 38161,Jonathan,Davis,27,5-8,190 lbs.,"May 12, 1992",Camden,49,CF,1 year,Toronto Blue Jays,R,R,Central Arkansas
 33794,Derek,Fisher,26,6-3,205 lbs.,"August 21, 1993",Rexmont,20,CF,2 years,Toronto Blue Jays,L,R,Virginia
 31399,Randal,Grichuk,28,6-2,213 lbs.,"August 13, 1991",Rosenberg,15,CF,5 years,Toronto Blue Jays,R,R,None
+36040,Lourdes,Gurriel,25,6-2,185 lbs.,"October 19, 1993",Santa Clara,13,LF,1 year,Toronto Blue Jays,R,R,None
 33377,Teoscar,Hernandez,26,6-2,205 lbs.,"October 15, 1992",Cotui,37,LF,3 years,Toronto Blue Jays,R,R,None
 33196,Billy,Mckinney,25,6-1,195 lbs.,"August 23, 1994",Plano,28,RF,1 year,Toronto Blue Jays,L,L,None
 41208,Bryan,Abreu,0,,,,,-1,,,,,,
 34882,Joe,Biagini,29,6-5,235 lbs.,"May 29, 1990",Menlo Park,29,RP,3 years,Houston Astros,R,R,UC Davis
-32081,Gerrit,Cole,28,6-4,225 lbs.,"September 8, 1990",Newport Beach,45,SP,6 years,Houston Astros,R,R,UCLA
+32081,Gerrit,Cole,29,6-4,225 lbs.,"September 8, 1990",Newport Beach,45,SP,6 years,Houston Astros,R,R,UCLA
 32511,Chris,Devenski,28,6-3,210 lbs.,"November 13, 1990",Cerritos,47,RP,3 years,Houston Astros,R,R,Cal State Fullerton
 5883,Zack,Greinke,35,6-2,200 lbs.,"October 21, 1983",Orlando,21,SP,15 years,Houston Astros,R,R,None
 32566,Will,Harris,35,6-4,240 lbs.,"August 28, 1984",Houston,36,RP,7 years,Houston Astros,R,R,LSU
@@ -348,6 +368,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 34886,Alex,Bregman,25,6-0,180 lbs.,"March 30, 1994",Albuquerque,2,3B,3 years,Houston Astros,R,R,LSU
 33390,Aledmys,Diaz,29,6-1,195 lbs.,"August 1, 1990",Santa Clara,16,2B,3 years,Houston Astros,R,R,None
 36006,Yuli,Gurriel,35,6-0,190 lbs.,"June 9, 1984",Sancti Spíritus,10,1B,3 years,Houston Astros,R,R,None
+36418,Jack,Mayfield,0,,,,,-1,,,,,,
 40754,Abraham,Toro,0,,,,,-1,,,,,,
 36018,Yordan,Alvarez,0,,,,,-1,,,,,,
 30043,Michael,Brantley,32,6-2,200 lbs.,"May 15, 1987",Bellevue,23,LF,10 years,Houston Astros,L,L,None
@@ -367,10 +388,12 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 32672,Andrew,Heaney,28,6-2,200 lbs.,"June 5, 1991",Oklahoma City,28,SP,5 years,Los Angeles Angels,L,L,Oklahoma State
 34957,Jake,Jewell,26,6-3,200 lbs.,"May 16, 1993",Norman,65,RP,1 year,Los Angeles Angels,R,R,Northeastern Oklahoma A&M (J.C.)
 33198,Adalberto,Mejia,26,6-3,195 lbs.,"June 20, 1993",Bonao,49,RP,3 years,Los Angeles Angels,L,R,None
-36045,Keynan,Middleton,25,6-3,215 lbs.,"September 12, 1993",Portland,99,RP,2 years,Los Angeles Angels,R,R,Lane
+36045,Keynan,Middleton,26,6-3,215 lbs.,"September 12, 1993",Portland,99,RP,2 years,Los Angeles Angels,R,R,Lane
 36169,Dillon,Peters,27,5-11,190 lbs.,"August 31, 1992",Indianapolis,52,SP,2 years,Los Angeles Angels,L,L,Texas
 32972,Noe,Ramirez,29,6-3,205 lbs.,"December 22, 1989",Los Angeles,24,RP,4 years,Los Angeles Angels,R,R,Cal State Fullerton
 32666,Hansel,Robles,29,6-0,220 lbs.,"August 13, 1990",Bonao,57,RP,4 years,Los Angeles Angels,R,R,None
+42141,Jose,Rodriguez,0,,,,,-1,,,,,,
+40975,Patrick,Sandoval,0,,,,,-1,,,,,,
 40981,Jose,Suarez,0,,,,,-1,,,,,,
 34102,Anthony,Bemboom,0,,,,,-1,,,,,,
 32618,Kevan,Smith,31,6-4,240 lbs.,"June 28, 1988",Pittsburgh,44,C,3 years,Los Angeles Angels,R,R,Pittsburgh
@@ -397,7 +420,9 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 32178,Jake,Diekman,32,6-4,200 lbs.,"January 21, 1987",Wymore,35,RP,7 years,Oakland Athletics,L,L,Cloud Co. CC (KS)
 30773,Mike,Fiers,34,6-2,202 lbs.,"June 15, 1985",Hollywood,50,SP,8 years,Oakland Athletics,R,R,Nova Southeastern
 31755,Liam,Hendriks,30,6-0,200 lbs.,"February 10, 1989",Perth,16,RP,8 years,Oakland Athletics,R,R,None
+39667,Jesus,Luzardo,0,,,,,-1,,,,,,
 33244,Sean,Manaea,27,6-5,245 lbs.,"February 1, 1992",Valparaiso,55,SP,3 years,Oakland Athletics,L,R,Indiana State
+35096,Daniel,Mengden,26,6-1,225 lbs.,"February 19, 1993",Houston,33,SP,3 years,Oakland Athletics,R,R,Texas A&M
 6470,Yusmeiro,Petit,34,6-1,255 lbs.,"November 22, 1984",Maracaibo,36,RP,11 years,Oakland Athletics,R,R,None
 36201,A.J.,Puk,0,,,,,-1,,,,,,
 31593,Tanner,Roark,32,6-2,240 lbs.,"October 5, 1986",Wilmington,60,SP,6 years,Oakland Athletics,R,R,Illinois
@@ -405,10 +430,10 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 32185,Blake,Treinen,31,6-5,225 lbs.,"June 30, 1988",Wichita,39,RP,5 years,Oakland Athletics,R,R,South Dakota State
 35844,Lou,Trivino,27,6-5,240 lbs.,"October 1, 1991",Green Lane,62,RP,1 year,Oakland Athletics,R,R,Slippery Rock
 34853,J.B.,Wendelken,26,6-0,240 lbs.,"March 24, 1993",Savannah,57,RP,2 years,Oakland Athletics,R,R,MIDDLE GEORGIA
-31998,Chris,Herrmann,31,6-0,200 lbs.,"November 24, 1987",Tomball,5,C,7 years,Oakland Athletics,L,R,Miami
 33557,Sean,Murphy,0,,,,,-1,,,,,,
 30600,Josh,Phegley,31,5-10,225 lbs.,"February 12, 1988",Terre Haute,19,C,6 years,Oakland Athletics,R,R,Indiana
 33226,Franklin,Barreto,23,5-10,200 lbs.,"February 27, 1996",Caracas,1,2B,2 years,Oakland Athletics,R,R,None
+35676,Seth,Brown,0,,,,,-1,,,,,,
 31670,Mark,Canha,30,6-2,212 lbs.,"February 15, 1989",San Jose,20,1B,4 years,Oakland Athletics,R,R,California
 33857,Matt,Chapman,26,6-0,220 lbs.,"April 28, 1993",Victorville,26,3B,2 years,Oakland Athletics,R,R,Cal State Fullerton
 39666,Sheldon,Neuse,0,,,,,-1,,,,,,
@@ -420,22 +445,24 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 35142,Ramon,Laureano,25,5-11,200 lbs.,"July 15, 1994",Santo Domingo,22,CF,1 year,Oakland Athletics,R,R,Northeastern Oklahoma A&M (J.C.)
 33771,Chad,Pinder,27,6-2,207 lbs.,"March 29, 1992",Richmond,18,LF,3 years,Oakland Athletics,R,R,Virginia Tech
 36046,Austin,Adams,28,6-3,225 lbs.,"May 5, 1991",Tampa,63,RP,2 years,Seattle Mariners,R,R,South Florida
-35222,Dan,Altavilla,26,5-11,200 lbs.,"September 8, 1992",Mckeesport,53,RP,3 years,Seattle Mariners,R,R,Mercyhurst
+35222,Dan,Altavilla,27,5-11,200 lbs.,"September 8, 1992",Mckeesport,53,RP,3 years,Seattle Mariners,R,R,Mercyhurst
 31144,Anthony,Bass,31,6-2,200 lbs.,"November 1, 1987",Dearborn,52,RP,7 years,Seattle Mariners,R,R,Wayne State (MI)
 34852,Brandon,Brennan,0,,,,,-1,,,,,,
+40992,Justin,Dunn,0,,,,,-1,,,,,,
 33158,Marco,Gonzales,27,6-1,195 lbs.,"February 16, 1992",Fort Collins,7,SP,4 years,Seattle Mariners,L,L,Gonzaga
+36024,Zac,Grotz,0,,,,,-1,,,,,,
 6194,Felix,Hernandez,33,6-3,225 lbs.,"April 8, 1986",Valencia,34,SP,14 years,Seattle Mariners,R,R,None
 41415,Yusei,Kikuchi,0,,,,,-1,,,,,,
 29238,Wade,Leblanc,35,6-3,205 lbs.,"August 7, 1984",Lake Charles,49,SP,10 years,Seattle Mariners,L,L,Alabama
 31898,Matt,Magill,29,6-3,210 lbs.,"November 10, 1989",Simi Valley,61,RP,3 years,Seattle Mariners,R,R,None
+41692,Reggie,Mcclain,0,,,,,-1,,,,,,
 31706,Tommy,Milone,32,6-0,215 lbs.,"February 16, 1987",Saugus,57,SP,8 years,Seattle Mariners,L,L,USC
 33815,Justus,Sheffield,23,6-0,200 lbs.,"May 13, 1996",Tullahoma,33,RP,1 year,Seattle Mariners,L,L,None
 36013,Erik,Swanson,0,,,,,-1,,,,,,
 33368,Sam,Tuivailala,26,6-3,225 lbs.,"October 19, 1992",San Mateo,26,RP,5 years,Seattle Mariners,R,R,None
-32802,Matt,Wisler,26,6-3,215 lbs.,"September 12, 1992",Bryan,44,RP,4 years,Seattle Mariners,R,R,None
+32802,Matt,Wisler,27,6-3,215 lbs.,"September 12, 1992",Bryan,44,RP,4 years,Seattle Mariners,R,R,None
 33225,Tom,Murphy,28,6-1,218 lbs.,"April 3, 1991",West Monroe,2,C,4 years,Seattle Mariners,R,R,Buffalo
 34254,Omar,Narvaez,27,5-11,220 lbs.,"February 10, 1992",Maracay,22,C,3 years,Seattle Mariners,L,R,None
-32873,Ryan,Court,0,,,,,-1,,,,,,
 33210,J.P.,Crawford,24,6-2,180 lbs.,"January 11, 1995",Long Beach,3,SS,2 years,Seattle Mariners,L,R,None
 30726,Dee,Gordon,31,5-11,170 lbs.,"April 22, 1988",Windermere,9,2B,8 years,Seattle Mariners,L,R,Seminole Coll. FL (J.C.)
 38859,Shed,Long,0,,,,,-1,,,,,,
@@ -447,9 +474,11 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 35033,Braden,Bishop,0,,,,,-1,,,,,,
 30755,Keon,Broxton,29,6-3,195 lbs.,"May 7, 1990",Lakeland,4,CF,4 years,Seattle Mariners,R,R,Santa Fe CC FL (J.C.)
 37974,Jake,Fraley,0,,,,,-1,,,,,,
+36188,Kyle,Lewis,0,,,,,-1,,,,,,
 32933,Mallex,Smith,0,,,,,-1,,,,,,
 34980,Kolby,Allard,22,6-1,175 lbs.,"August 13, 1997",San Clemente,39,RP,1 year,Texas Rangers,L,L,None
 39945,Brock,Burke,0,,,,,-1,,,,,,
+41743,Emmanuel,Clase,0,,,,,-1,,,,,,
 35391,Luke,Farrell,28,6-6,210 lbs.,"June 7, 1991",Westlake,60,RP,2 years,Texas Rangers,R,L,Northwestern
 37979,Ian,Gibaut,0,,,,,-1,,,,,,
 32167,Taylor,Guerrieri,26,6-3,195 lbs.,"December 1, 1992",North Augusta,46,SP,1 year,Texas Rangers,R,R,None
@@ -462,6 +491,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 34875,Yohander,Mendez,24,6-5,200 lbs.,"January 17, 1995",Valencia,65,SP,3 years,Texas Rangers,L,L,None
 30624,Mike,Minor,31,6-4,210 lbs.,"December 26, 1987",Chapel Hill,23,SP,7 years,Texas Rangers,L,R,Vanderbilt
 32631,Rafael,Montero,28,6-0,185 lbs.,"October 17, 1990",San Cristobal,48,RP,4 years,Texas Rangers,R,R,None
+39824,Joe,Palumbo,0,,,,,-1,,,,,,
 33677,Adrian,Sampson,27,6-2,210 lbs.,"October 7, 1991",Redmond,52,SP,2 years,Texas Rangers,R,R,Bellevue CC WA
 35397,Jeffrey,Springs,26,6-3,180 lbs.,"September 20, 1992",Belmont,54,RP,1 year,Texas Rangers,L,L,Appalachian State
 6401,Edinson,Volquez,36,6-0,220 lbs.,"July 3, 1983",Barahona,36,SP,13 years,Texas Rangers,R,R,None
@@ -479,7 +509,6 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 6205,Shin-Soo,Choo,37,5-11,210 lbs.,"July 13, 1982",Busan,17,LF,14 years,Texas Rangers,L,L,None
 31360,Delino,Deshields,27,5-9,200 lbs.,"August 16, 1992",Easton,3,CF,4 years,Texas Rangers,R,R,None
 32820,Nomar,Mazara,24,6-4,215 lbs.,"April 26, 1995",Santo Domingo,30,RF,3 years,Texas Rangers,L,L,None
-39802,Adbert,Alzolay,0,,,,,-1,,,,,,
 30564,Tyler,Chatwood,29,6-0,185 lbs.,"December 16, 1989",Redlands,32,RP,7 years,Chicago Cubs,R,R,None
 30963,Steve,Cishek,33,6-6,215 lbs.,"June 18, 1986",Falmouth,41,RP,9 years,Chicago Cubs,R,R,Carson-Newman
 32055,Yu,Darvish,33,6-5,220 lbs.,"August 16, 1986",Osaka,11,SP,6 years,Chicago Cubs,R,R,None
@@ -489,6 +518,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 32023,Danny,Hultzen,0,,,,,-1,,,,,,
 30959,Brandon,Kintzler,35,6-0,194 lbs.,"August 1, 1984",Las Vegas,20,RP,9 years,Chicago Cubs,R,R,DIXIE ST
 28487,Jon,Lester,35,6-4,240 lbs.,"January 7, 1984",Tacoma,34,SP,13 years,Chicago Cubs,L,L,None
+32128,Dillon,Maples,27,6-2,225 lbs.,"May 9, 1992",West End,36,RP,2 years,Chicago Cubs,R,R,None
 34863,Alec,Mills,27,6-4,190 lbs.,"November 30, 1991",Clarksville,30,RP,2 years,Chicago Cubs,R,R,UT Martin
 31124,David,Phelps,32,6-3,200 lbs.,"October 9, 1986",St. Louis,37,RP,6 years,Chicago Cubs,R,R,Notre Dame
 32106,Jose,Quintana,30,6-1,220 lbs.,"January 24, 1989",Arjona,62,SP,7 years,Chicago Cubs,L,R,None
@@ -504,9 +534,9 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 35246,David,Bote,26,6-1,210 lbs.,"April 7, 1993",Longmont,13,3B,1 year,Chicago Cubs,R,R,Neosho County CC KS
 33172,Kris,Bryant,27,6-5,230 lbs.,"January 4, 1992",Las Vegas,17,3B,4 years,Chicago Cubs,R,R,San Diego
 30475,Daniel,Descalso,32,5-10,190 lbs.,"October 19, 1986",Redwood City,3,2B,9 years,Chicago Cubs,L,R,UC Davis
+33451,Robel,Garcia,0,,,,,-1,,,,,,
 34083,Tony,Kemp,27,5-6,165 lbs.,"October 31, 1991",Franklin,4,2B,3 years,Chicago Cubs,L,R,Vanderbilt
 30782,Anthony,Rizzo,30,6-3,240 lbs.,"August 8, 1989",Fort Lauderdale,44,1B,8 years,Chicago Cubs,L,L,None
-32656,Addison,Russell,25,6-0,200 lbs.,"January 23, 1994",Pensacola,27,2B,4 years,Chicago Cubs,R,R,None
 32686,Albert,Almora,25,6-2,190 lbs.,"April 16, 1994",Hialeah,5,CF,3 years,Chicago Cubs,R,R,None
 31187,Nicholas,Castellanos,27,6-4,203 lbs.,"March 4, 1992",Davie,6,RF,6 years,Chicago Cubs,R,R,None
 34945,Ian,Happ,25,6-0,205 lbs.,"August 12, 1994",Pittsburgh,8,CF,2 years,Chicago Cubs,B,R,Cincinnati
@@ -530,7 +560,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 32807,Lucas,Sims,25,6-2,195 lbs.,"May 10, 1994",Lawrenceville,39,SP,2 years,Cincinnati Reds,R,R,None
 32134,Robert,Stephenson,26,6-3,215 lbs.,"February 24, 1993",Martinez,55,RP,3 years,Cincinnati Reds,R,R,None
 32620,Alex,Wood,28,6-4,215 lbs.,"January 12, 1991",Charlotte,40,SP,6 years,Cincinnati Reds,L,R,Georgia
-31173,Tucker,Barnhart,28,5-11,192 lbs.,"January 7, 1991",Indianapolis,16,C,5 years,Cincinnati Reds,B,R,None
+31173,Tucker,Barnhart,28,5-11,192 lbs.,"January 7, 1991",Indianapolis,16,C,5 years,Cincinnati Reds,L,R,None
 32049,Curt,Casali,30,6-2,225 lbs.,"November 9, 1988",Walnut Creek,12,C,5 years,Cincinnati Reds,R,R,Vanderbilt
 33019,Juan,Graterol,30,6-1,205 lbs.,"February 14, 1989",Maracay,68,C,3 years,Cincinnati Reds,R,R,None
 33851,Alex,Blandino,26,6-0,190 lbs.,"November 6, 1992",Palo Alto,2,SS,1 year,Cincinnati Reds,R,R,Stanford
@@ -539,7 +569,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 30382,Jose,Iglesias,29,5-11,194 lbs.,"January 5, 1990",Havana,4,SS,7 years,Cincinnati Reds,R,R,None
 32470,Jose,Peraza,25,6-0,196 lbs.,"April 30, 1994",Barinas,9,2B,4 years,Cincinnati Reds,R,R,None
 32367,Eugenio,Suarez,28,5-11,213 lbs.,"July 18, 1991",Puerto Ordaz,7,3B,5 years,Cincinnati Reds,R,R,None
-28670,Joey,Votto,35,6-2,220 lbs.,"September 10, 1983",Toronto,19,1B,12 years,Cincinnati Reds,L,R,None
+28670,Joey,Votto,36,6-2,220 lbs.,"September 10, 1983",Toronto,19,1B,12 years,Cincinnati Reds,L,R,None
 33785,Aristides,Aquino,25,6-4,190 lbs.,"April 22, 1994",Santo Domingo,44,RF,1 year,Cincinnati Reds,R,R,None
 33234,Phillip,Ervin,27,5-10,207 lbs.,"July 17, 1992",Mobile,6,RF,2 years,Cincinnati Reds,R,R,Samford
 33882,Brian,O'Grady,0,,,,,-1,,,,,,
@@ -569,7 +599,8 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 30268,Manny,Pina,32,6-0,215 lbs.,"June 5, 1987",Barquisimeto,9,C,5 years,Milwaukee Brewers,R,R,None
 32530,Orlando,Arcia,25,6-0,165 lbs.,"August 4, 1994",Anaco,3,SS,3 years,Milwaukee Brewers,R,R,None
 32161,Tyler,Austin,28,6-2,220 lbs.,"September 6, 1991",Conyers,29,1B,3 years,Milwaukee Brewers,R,R,None
-29999,Mike,Moustakas,30,6-0,225 lbs.,"September 11, 1988",Los Angeles,11,3B,8 years,Milwaukee Brewers,L,R,None
+39879,Keston,Hiura,0,,,,,-1,,,,,,
+29999,Mike,Moustakas,31,6-0,225 lbs.,"September 11, 1988",Los Angeles,11,3B,8 years,Milwaukee Brewers,L,R,None
 30878,Hernan,Perez,28,6-1,215 lbs.,"March 26, 1991",Villa de Cura,14,3B,7 years,Milwaukee Brewers,R,R,None
 32890,Travis,Shaw,29,6-4,230 lbs.,"April 16, 1990",Washington Court House,21,2B,4 years,Milwaukee Brewers,L,R,Kent State
 32169,Cory,Spangenberg,28,6-0,195 lbs.,"March 16, 1991",Clarks Summit,5,3B,5 years,Milwaukee Brewers,L,R,Indian River CC (J.C.)
@@ -577,21 +608,23 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 28721,Ryan,Braun,35,6-2,205 lbs.,"November 17, 1983",Mission Hills,8,LF,12 years,Milwaukee Brewers,R,R,Miami
 29416,Lorenzo,Cain,33,6-2,205 lbs.,"April 13, 1986",Valdosta,6,CF,9 years,Milwaukee Brewers,R,R,Tallahassee CC FL
 31824,Ben,Gamel,27,5-11,185 lbs.,"May 17, 1992",Neptune Beach,16,LF,3 years,Milwaukee Brewers,L,L,None
+34995,Trent,Grisham,0,,,,,-1,,,,,,
 32783,Tyrone,Taylor,0,,,,,-1,,,,,,
 31283,Christian,Yelich,27,6-3,195 lbs.,"December 5, 1991",Thousand Oaks,22,RF,6 years,Milwaukee Brewers,L,R,None
 39813,Dario,Agrazal,0,,,,,-1,,,,,,
 33870,Steven,Brault,27,6-0,200 lbs.,"April 29, 1992",La Mesa,43,RP,3 years,Pittsburgh Pirates,L,L,REGIS COLO
-32171,Kyle,Crick,26,6-4,220 lbs.,"November 30, 1992",Fort Worth,30,RP,2 years,Pittsburgh Pirates,R,L,None
 33235,Michael,Feliz,26,6-4,240 lbs.,"June 28, 1993",Azua Province,45,RP,4 years,Pittsburgh Pirates,R,R,None
 40865,Geoff,Hartlieb,0,,,,,-1,,,,,,
 32827,Clay,Holmes,26,6-5,225 lbs.,"March 27, 1993",Dothan,52,RP,1 year,Pittsburgh Pirates,R,R,None
+34858,Williams,Jerez,27,6-4,205 lbs.,"May 16, 1992",Brooklyn,79,SP,1 year,Pittsburgh Pirates,L,L,None
 33497,Keone,Kela,26,6-1,215 lbs.,"April 16, 1993",Los Angeles,35,RP,4 years,Pittsburgh Pirates,R,R,Everett CC WA
 33722,Mitch,Keller,0,,,,,-1,,,,,,
 6211,Francisco,Liriano,35,6-3,218 lbs.,"October 26, 1983",San Cristobal,47,RP,13 years,Pittsburgh Pirates,L,L,None
 34908,Parker,Markel,0,,,,,-1,,,,,,
+42308,James,Marvel,0,,,,,-1,,,,,,
 39886,Alex,Mcrae,26,6-3,185 lbs.,"April 6, 1993",West Allis,63,RP,1 year,Pittsburgh Pirates,R,R,Jacksonville
 34848,Joe,Musgrove,26,6-5,230 lbs.,"December 4, 1992",El Cajon,59,SP,3 years,Pittsburgh Pirates,R,R,None
-36051,Yefry,Ramirez,25,6-2,165 lbs.,"November 28, 1993",Santo Domingo,70,SP,2 years,Pittsburgh Pirates,R,R,None
+36051,Yefry,Ramirez,25,6-2,165 lbs.,"November 28, 1993",Santo Domingo,70,SP,1 year,Pittsburgh Pirates,R,R,None
 37223,Yacksel,Rios,26,6-3,185 lbs.,"June 27, 1993",Caguas,71,RP,2 years,Pittsburgh Pirates,R,R,None
 35243,Richard,Rodriguez,29,6-4,230 lbs.,"March 4, 1990",Santiago,48,RP,2 years,Pittsburgh Pirates,R,R,None
 32562,Felipe,Vazquez,28,6-2,225 lbs.,"July 5, 1991",San Felipe,73,RP,4 years,Pittsburgh Pirates,L,L,None
@@ -636,7 +669,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 31015,Matt,Carpenter,33,6-3,205 lbs.,"November 26, 1985",Galveston,13,3B,8 years,St. Louis Cardinals,L,R,TCU
 35185,Paul,Dejong,26,6-1,200 lbs.,"August 2, 1993",Orlando,12,SS,2 years,St. Louis Cardinals,R,R,Illinois State
 39907,Tommy,Edman,0,,,,,-1,,,,,,
-31027,Paul,Goldschmidt,31,6-3,225 lbs.,"September 10, 1987",Wilmington,46,1B,8 years,St. Louis Cardinals,R,R,Texas State
+31027,Paul,Goldschmidt,32,6-3,225 lbs.,"September 10, 1987",Wilmington,46,1B,8 years,St. Louis Cardinals,R,R,Texas State
 33828,Yairo,Munoz,24,6-1,201 lbs.,"January 23, 1995",Nagua,34,3B,1 year,St. Louis Cardinals,R,R,None
 31933,Rangel,Ravelo,0,,,,,-1,,,,,,
 33809,Edmundo,Sosa,23,5-11,170 lbs.,"March 6, 1996",Panama City,63,SS,1 year,St. Louis Cardinals,R,R,None
@@ -648,6 +681,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 34168,Tyler,O'Neill,24,5-11,210 lbs.,"June 22, 1995",Burnaby,41,LF,1 year,St. Louis Cardinals,R,R,None
 31668,Marcell,Ozuna,28,6-1,225 lbs.,"November 12, 1990",Santo Domingo,23,LF,6 years,St. Louis Cardinals,R,R,None
 28915,Jerry,Blevins,36,6-6,190 lbs.,"September 6, 1983",Johnson City,50,RP,12 years,Atlanta Braves,L,L,Dayton
+32670,Grant,Dayton,31,6-2,210 lbs.,"November 25, 1987",Huntsville,75,RP,2 years,Atlanta Braves,L,L,Auburn
 31819,Mike,Foltynewicz,27,6-4,200 lbs.,"October 7, 1991",Sterling,26,SP,5 years,Atlanta Braves,R,R,None
 32685,Max,Fried,25,6-4,190 lbs.,"January 18, 1994",Santa Monica,54,SP,2 years,Atlanta Braves,L,L,None
 32704,Shane,Greene,30,6-4,197 lbs.,"November 17, 1988",Clermont,19,RP,5 years,Atlanta Braves,R,R,Daytona Beach CC FL
@@ -655,28 +689,30 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 31815,Dallas,Keuchel,31,6-3,205 lbs.,"January 1, 1988",Tulsa,60,SP,7 years,Atlanta Braves,L,L,Arkansas
 32903,Chris,Martin,33,6-8,215 lbs.,"June 2, 1986",Arlington,51,RP,3 years,Atlanta Braves,R,R,McLennan CC TX
 29446,Mark,Melancon,34,6-2,215 lbs.,"March 28, 1985",Wheat Ridge,36,RP,10 years,Atlanta Braves,R,R,Arizona
-36133,A.J.,Minter,26,6-0,215 lbs.,"September 2, 1993",Tyler,33,RP,2 years,Atlanta Braves,L,L,Texas A&M
 33856,Sean,Newcomb,26,6-5,255 lbs.,"June 12, 1993",Brockton,15,RP,2 years,Atlanta Braves,L,L,Hartford
 29081,Darren,O'Day,36,6-4,220 lbs.,"October 22, 1982",Smyrna,56,RP,11 years,Atlanta Braves,R,R,Florida
 39385,Chad,Sobotka,26,6-7,225 lbs.,"July 10, 1993",Sarasota,61,RP,1 year,Atlanta Braves,R,R,South Carolina Upsta
 34984,Mike,Soroka,22,6-5,225 lbs.,"August 4, 1997",Calgary,40,SP,1 year,Atlanta Braves,R,R,None
-30153,Anthony,Swarzak,33,6-4,215 lbs.,"September 10, 1985",Fort Lauderdale,38,RP,9 years,Atlanta Braves,R,R,None
+30153,Anthony,Swarzak,34,6-4,215 lbs.,"September 10, 1985",Fort Lauderdale,38,RP,9 years,Atlanta Braves,R,R,None
 31091,Julio,Teheran,28,6-2,205 lbs.,"January 27, 1991",Cartagena,49,SP,8 years,Atlanta Braves,R,R,None
 30944,Josh,Tomlin,34,6-1,190 lbs.,"October 19, 1984",Tyler,32,RP,9 years,Atlanta Braves,R,R,Angelina Coll. TX (J.C.)
+33790,Touki,Toussaint,23,6-3,185 lbs.,"June 20, 1996",Pembroke Pines,62,RP,1 year,Atlanta Braves,R,R,None
+40922,Bryse,Wilson,21,6-1,225 lbs.,"December 20, 1997",Durham,46,SP,1 year,Atlanta Braves,R,R,None
+39652,Kyle,Wright,23,6-4,220 lbs.,"October 2, 1995",Huntsville,30,SP,1 year,Atlanta Braves,R,R,Vanderbilt
 29273,Francisco,Cervelli,33,6-1,210 lbs.,"March 6, 1986",Valencia,45,C,11 years,Atlanta Braves,R,R,None
 30157,Tyler,Flowers,33,6-4,260 lbs.,"January 24, 1986",Roswell,25,C,10 years,Atlanta Braves,R,R,Chipola College
 6309,Brian,Mccann,35,6-3,225 lbs.,"February 20, 1984",Athens,16,C,14 years,Atlanta Braves,L,R,None
 33783,Ozzie,Albies,22,5-8,165 lbs.,"January 7, 1997",Willemstad,1,2B,2 years,Atlanta Braves,B,R,None
-33741,Johan,Camargo,25,6-0,195 lbs.,"December 13, 1993",Panama City,17,3B,2 years,Atlanta Braves,B,R,None
 29563,Josh,Donaldson,33,6-1,210 lbs.,"December 8, 1985",Pensacola,20,3B,8 years,Atlanta Braves,R,R,Auburn
-30193,Freddie,Freeman,29,6-5,220 lbs.,"September 12, 1989",Fountain Valley,5,1B,9 years,Atlanta Braves,L,R,None
+30193,Freddie,Freeman,30,6-5,220 lbs.,"September 12, 1989",Fountain Valley,5,1B,9 years,Atlanta Braves,L,R,None
 31049,Adeiny,Hechavarria,30,6-0,195 lbs.,"April 15, 1989",Santiago de Cuba,24,2B,7 years,Atlanta Braves,R,R,None
 34895,Dansby,Swanson,25,6-1,190 lbs.,"February 11, 1994",Kennesaw,7,SS,3 years,Atlanta Braves,R,R,Vanderbilt
 36185,Ronald,Acuna,21,6-0,180 lbs.,"December 18, 1997",La Guaira,13,CF,1 year,Atlanta Braves,R,R,None
 29955,Charlie,Culberson,30,6-0,200 lbs.,"April 10, 1989",Rome,8,LF,6 years,Atlanta Braves,R,R,None
 32664,Adam,Duvall,31,6-1,215 lbs.,"September 4, 1988",Louisville,23,LF,5 years,Atlanta Braves,R,R,Louisville
-31042,Billy,Hamilton,28,6-0,160 lbs.,"September 9, 1990",Taylorsville,9,CF,6 years,Atlanta Braves,B,R,None
+31042,Billy,Hamilton,29,6-0,160 lbs.,"September 9, 1990",Taylorsville,9,CF,6 years,Atlanta Braves,B,R,None
 29124,Matt,Joyce,35,6-2,200 lbs.,"August 3, 1984",Tampa,14,LF,11 years,Atlanta Braves,L,R,FLA SOUTHERN
+6478,Nick,Markakis,35,6-1,210 lbs.,"November 17, 1983",Glen Cove,22,RF,13 years,Atlanta Braves,L,L,Young Harris College
 31833,Rafael,Ortega,28,5-11,160 lbs.,"May 15, 1991",El Tigre,18,LF,3 years,Atlanta Braves,L,R,None
 34982,Austin,Riley,0,,,,,-1,,,,,,
 35241,Sandy,Alcantara,24,6-4,170 lbs.,"September 7, 1995",Azua Province,22,SP,2 years,Miami Marlins,R,R,None
@@ -695,7 +731,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 39142,Jose,Quijada,0,,,,,-1,,,,,,
 36081,Caleb,Smith,28,6-2,205 lbs.,"July 28, 1991",Huntsville,31,SP,2 years,Miami Marlins,L,R,Sam Houston State
 33301,Ryne,Stanek,28,6-4,225 lbs.,"July 26, 1991",St. Louis,35,RP,2 years,Miami Marlins,R,R,Arkansas
-33107,Jose,Urena,27,6-2,200 lbs.,"September 12, 1991",Santo Domingo,62,SP,4 years,Miami Marlins,R,R,None
+33107,Jose,Urena,28,6-2,200 lbs.,"September 12, 1991",Santo Domingo,62,SP,4 years,Miami Marlins,R,R,None
 31737,Jorge,Alfaro,26,6-2,225 lbs.,"June 11, 1993",Sincelejo,38,C,3 years,Miami Marlins,R,R,None
 33142,Tyler,Heineman,0,,,,,-1,,,,,,
 31961,Bryan,Holaday,31,6-0,214 lbs.,"November 19, 1987",Dallas,28,C,7 years,Miami Marlins,R,R,TCU
@@ -704,7 +740,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 34997,Isan,Diaz,0,,,,,-1,,,,,,
 6513,Martin,Prado,35,6-0,215 lbs.,"October 27, 1983",Maracay,14,1B,13 years,Miami Marlins,R,R,None
 30791,Miguel,Rojas,30,5-11,195 lbs.,"February 24, 1989",Los Teques,19,SS,5 years,Miami Marlins,R,R,None
-29590,Neil,Walker,33,6-3,210 lbs.,"September 10, 1985",Pittsburgh,18,1B,10 years,Miami Marlins,B,R,None
+29590,Neil,Walker,34,6-3,210 lbs.,"September 10, 1985",Pittsburgh,18,1B,10 years,Miami Marlins,B,R,None
 32819,Lewis,Brinson,25,6-3,195 lbs.,"May 8, 1994",Tamarac,9,CF,2 years,Miami Marlins,R,R,None
 33398,Garrett,Cooper,28,6-6,230 lbs.,"December 25, 1990",Auburn,26,RF,2 years,Miami Marlins,R,R,Auburn
 33532,Austin,Dean,25,6-1,190 lbs.,"October 14, 1993",Spring,44,LF,1 year,Miami Marlins,R,R,None
@@ -717,6 +753,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 35394,Edwin,Diaz,25,6-3,165 lbs.,"March 22, 1994",Naguabo,39,RP,3 years,New York Mets,R,R,None
 31687,Jeurys,Familia,29,6-3,240 lbs.,"October 10, 1989",Santo Domingo,27,RP,7 years,New York Mets,R,R,None
 36095,Drew,Gagnon,29,6-4,195 lbs.,"June 26, 1990",Columbia,47,RP,1 year,New York Mets,R,R,Long Beach State
+35125,Donnie,Hart,29,5-11,180 lbs.,"September 6, 1990",Bedford,68,RP,3 years,New York Mets,L,L,Texas State
 33293,Walker,Lockett,25,6-5,225 lbs.,"May 3, 1994",Jacksonville,61,SP,1 year,New York Mets,R,R,None
 34873,Seth,Lugo,29,6-4,225 lbs.,"November 17, 1989",Shreveport,67,RP,3 years,New York Mets,R,R,Centenary
 33106,Steven,Matz,28,6-2,200 lbs.,"May 29, 1991",Stony Brook,32,SP,4 years,New York Mets,L,R,None
@@ -735,6 +772,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 33796,J.D.,Davis,26,6-3,225 lbs.,"April 27, 1993",Elk Grove,28,3B,2 years,New York Mets,R,R,Cal State Fullerton
 30004,Todd,Frazier,33,6-3,220 lbs.,"February 12, 1986",Point Pleasant,21,3B,8 years,New York Mets,R,R,Rutgers
 35149,Luis,Guillorme,24,5-10,195 lbs.,"September 27, 1994",Davie,13,SS,1 year,New York Mets,L,R,None
+38347,Sam,Haggerty,0,,,,,-1,,,,,,
 29074,Jed,Lowrie,35,6-0,180 lbs.,"April 17, 1984",Salem,4,2B,11 years,New York Mets,B,R,Stanford
 32087,Joe,Panik,28,6-1,200 lbs.,"October 30, 1990",Yonkers,2,2B,5 years,New York Mets,L,R,St. John's
 33215,Amed,Rosario,23,6-2,189 lbs.,"November 20, 1995",Santo Domingo,1,SS,2 years,New York Mets,R,R,None
@@ -776,7 +814,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 41082,Adam,Haseley,0,,,,,-1,,,,,,
 35276,Scott,Kingery,25,5-10,180 lbs.,"April 29, 1994",Phoenix,4,CF,1 year,Philadelphia Phillies,R,R,Arizona
 30817,Jose,Pirela,29,6-0,220 lbs.,"November 21, 1989",Valera,67,LF,5 years,Philadelphia Phillies,R,R,None
-33266,Nick,Williams,25,6-3,195 lbs.,"September 8, 1993",Galveston,5,RF,2 years,Philadelphia Phillies,L,L,None
+33266,Nick,Williams,26,6-3,195 lbs.,"September 8, 1993",Galveston,5,RF,2 years,Philadelphia Phillies,L,L,None
 33005,Aaron,Barrett,31,6-3,230 lbs.,"January 2, 1988",Evansville,32,RP,2 years,Washington Nationals,R,R,Ole Miss
 31313,Patrick,Corbin,30,6-3,210 lbs.,"July 19, 1989",Clay,46,SP,6 years,Washington Nationals,L,L,Chipola College
 30283,Sean,Doolittle,32,6-2,204 lbs.,"September 26, 1986",Rapid City,63,RP,7 years,Washington Nationals,L,L,Virginia
@@ -792,7 +830,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 28976,Max,Scherzer,35,6-3,215 lbs.,"July 27, 1984",St. Louis,31,SP,11 years,Washington Nationals,R,R,Missouri
 30373,Stephen,Strasburg,31,6-5,235 lbs.,"July 20, 1988",San Diego,37,SP,9 years,Washington Nationals,R,R,San Diego State
 32589,Hunter,Strickland,30,6-3,225 lbs.,"September 24, 1988",Thomaston,60,RP,5 years,Washington Nationals,R,R,None
-34936,Wander,Suero,27,6-4,211 lbs.,"September 15, 1991",San Jose de Ocoa,51,RP,1 year,Washington Nationals,R,R,None
+34936,Wander,Suero,28,6-4,211 lbs.,"September 15, 1991",San Jose de Ocoa,51,RP,1 year,Washington Nationals,R,R,None
 35044,Austin,Voth,27,6-2,201 lbs.,"June 26, 1992",Redmond,50,SP,1 year,Washington Nationals,R,R,Washington
 40477,Tres,Barrera,0,,,,,-1,,,,,,
 32108,Yan,Gomes,32,6-2,215 lbs.,"July 19, 1987",Sao Paulo,10,C,7 years,Washington Nationals,R,R,Barry
@@ -829,6 +867,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 32175,Robbie,Ray,27,6-2,195 lbs.,"October 1, 1991",Brentwood,38,SP,5 years,Arizona Diamondbacks,L,L,None
 33071,Robby,Scott,30,6-3,220 lbs.,"August 29, 1989",Miami,63,RP,3 years,Arizona Diamondbacks,L,R,Florida State
 33410,Jimmie,Sherfy,27,6-0,175 lbs.,"December 27, 1991",Camarillo,54,RP,2 years,Arizona Diamondbacks,R,R,Oregon
+34972,Alex,Young,0,,,,,-1,,,,,,
 30115,Alex,Avila,32,5-11,210 lbs.,"January 29, 1987",Hialeah,31,C,10 years,Arizona Diamondbacks,L,R,Alabama
 30464,Caleb,Joseph,33,6-3,180 lbs.,"June 18, 1986",Nashville,14,C,5 years,Arizona Diamondbacks,R,R,David Lipscomb University
 32797,Carson,Kelly,25,6-2,200 lbs.,"July 14, 1994",Chicago,18,C,3 years,Arizona Diamondbacks,R,R,None
@@ -875,7 +914,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 33247,Ryan,Mcmahon,24,6-2,208 lbs.,"December 14, 1994",Yorba Linda,24,2B,2 years,Colorado Rockies,L,R,None
 29200,Daniel,Murphy,34,6-1,221 lbs.,"April 1, 1985",Jacksonville,9,1B,10 years,Colorado Rockies,L,R,Jacksonville
 32150,Trevor,Story,26,6-2,214 lbs.,"November 15, 1992",Irving,27,SS,3 years,Colorado Rockies,R,R,None
-33364,Pat,Valaika,26,5-11,208 lbs.,"September 9, 1992",Valencia,4,3B,3 years,Colorado Rockies,R,R,UCLA
+33364,Pat,Valaika,27,5-11,208 lbs.,"September 9, 1992",Valencia,4,3B,3 years,Colorado Rockies,R,R,UCLA
 31084,Charlie,Blackmon,33,6-3,220 lbs.,"July 1, 1986",Dallas,19,RF,8 years,Colorado Rockies,L,L,Georgia Tech
 34086,Yonathan,Daza,0,,,,,-1,,,,,,
 29646,Ian,Desmond,33,6-3,220 lbs.,"September 20, 1985",Sarasota,20,CF,10 years,Colorado Rockies,R,R,None
@@ -887,6 +926,7 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 33852,Dylan,Floro,28,6-2,203 lbs.,"December 27, 1990",Merced,51,RP,3 years,Los Angeles Dodgers,R,L,Cal State Fullerton
 32888,Yimi,Garcia,29,6-0,225 lbs.,"August 18, 1990",Moca,63,RP,4 years,Los Angeles Dodgers,R,R,None
 38958,Tony,Gonsolin,0,,,,,-1,,,,,,
+6321,Rich,Hill,39,6-5,220 lbs.,"March 11, 1980",Boston,44,SP,14 years,Los Angeles Dodgers,L,L,Michigan
 29630,Kenley,Jansen,31,6-5,265 lbs.,"September 30, 1987",Willemstad,74,RP,9 years,Los Angeles Dodgers,R,B,None
 31992,Joe,Kelly,31,6-1,174 lbs.,"June 9, 1988",Anaheim,17,RP,7 years,Los Angeles Dodgers,R,R,UC Riverside
 28963,Clayton,Kershaw,31,6-4,226 lbs.,"March 19, 1988",Dallas,22,SP,11 years,Los Angeles Dodgers,L,L,None
@@ -906,20 +946,25 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 31402,Jedd,Gyorko,30,5-10,215 lbs.,"September 23, 1988",Morgantown,26,3B,6 years,Los Angeles Dodgers,R,R,West Virginia
 31358,Enrique,Hernandez,28,5-11,200 lbs.,"August 24, 1991",San Juan,14,2B,5 years,Los Angeles Dodgers,R,R,None
 40423,Gavin,Lux,0,,,,,-1,,,,,,
+33303,Max,Muncy,29,6-0,218 lbs.,"August 25, 1990",Midland,13,1B,3 years,Los Angeles Dodgers,L,R,Baylor
 29307,Kristopher,Negron,33,6-0,195 lbs.,"February 1, 1986",Willingboro,9,3B,5 years,Los Angeles Dodgers,R,R,Cosumnes River College (CA)
+36645,Edwin,Rios,0,,,,,-1,,,,,,
 32691,Corey,Seager,25,6-4,220 lbs.,"April 27, 1994",Charlotte,5,SS,4 years,Los Angeles Dodgers,L,R,None
 29607,Justin,Turner,34,5-11,202 lbs.,"November 23, 1984",Long Beach,10,3B,10 years,Los Angeles Dodgers,R,R,Cal State Fullerton
 33912,Cody,Bellinger,24,6-4,203 lbs.,"July 13, 1995",Scottsdale,35,RF,2 years,Los Angeles Dodgers,L,L,None
 31392,Joc,Pederson,27,6-1,220 lbs.,"April 21, 1992",Palo Alto,31,LF,5 years,Los Angeles Dodgers,L,L,None
 30699,A.J.,Pollock,31,6-1,195 lbs.,"December 5, 1987",Hebron,11,CF,7 years,Los Angeles Dodgers,R,R,Notre Dame
 32900,Chris,Taylor,29,6-1,196 lbs.,"August 29, 1990",Virginia Beach,3,LF,5 years,Los Angeles Dodgers,R,R,Virginia
+36102,Michel,Baez,0,,,,,-1,,,,,,
 38303,David,Bednar,0,,,,,-1,,,,,,
+36022,Ronald,Bolanos,0,,,,,-1,,,,,,
 31791,Robbie,Erlin,28,6-0,190 lbs.,"October 8, 1990",Oakland,41,RP,5 years,San Diego Padres,L,R,None
 34675,Javy,Guerra,23,5-11,155 lbs.,"September 25, 1995",David,8,RP,1 year,San Diego Padres,R,L,None
 36157,Dinelson,Lamet,27,6-4,187 lbs.,"July 18, 1992",Santiago,29,SP,1 year,San Diego Padres,R,R,None
 39915,Eric,Lauer,24,6-3,205 lbs.,"June 3, 1995",Elyria,46,SP,1 year,San Diego Padres,L,R,Kent State
 39876,Joey,Lucchesi,26,6-5,204 lbs.,"June 6, 1993",Newark,37,SP,1 year,San Diego Padres,L,L,Southeast Missouri S
 41451,Nick,Margevicius,0,,,,,-1,,,,,,
+40939,Andres,Munoz,0,,,,,-1,,,,,,
 35999,Chris,Paddack,0,,,,,-1,,,,,,
 35970,Luis,Perdomo,26,6-2,185 lbs.,"May 9, 1993",Santo Domingo,61,RP,3 years,San Diego Padres,R,R,None
 39875,Cal,Quantrill,0,,,,,-1,,,,,,
@@ -949,25 +994,30 @@ pid,fname,lname,age,height,weight,birthday,city,number,position,exp,team,throw,b
 33798,Tyler,Beede,26,6-3,211 lbs.,"May 23, 1993",Worcester,38,SP,1 year,San Francisco Giants,R,R,Vanderbilt
 29949,Madison,Bumgarner,30,6-4,242 lbs.,"August 1, 1989",Hickory,40,SP,10 years,San Francisco Giants,L,R,None
 34915,Sam,Coonrod,0,,,,,-1,,,,,,
+28955,Johnny,Cueto,33,5-11,229 lbs.,"February 15, 1986",San Pedro de Macoris,47,SP,11 years,San Francisco Giants,R,R,None
+38167,Enderson,Franco,0,,,,,-1,,,,,,
 33665,Jandel,Gustave,26,6-2,210 lbs.,"October 12, 1992",Pimentel,74,RP,2 years,San Francisco Giants,R,R,None
 41439,Conner,Menez,0,,,,,-1,,,,,,
+36036,Wandy,Peralta,28,6-0,220 lbs.,"July 27, 1991",San Francisco de Macoris,60,RP,3 years,San Francisco Giants,L,L,None
 40913,Dereck,Rodriguez,27,6-1,180 lbs.,"June 5, 1992",Arlington,57,SP,1 year,San Francisco Giants,R,R,None
+34026,Tyler,Rogers,0,,,,,-1,,,,,,
 29166,Jeff,Samardzija,34,6-5,240 lbs.,"January 23, 1985",Merrillville,29,SP,11 years,San Francisco Giants,R,R,Notre Dame
+34905,Sam,Selman,0,,,,,-1,,,,,,
 33083,Burch,Smith,29,6-4,225 lbs.,"April 12, 1990",San Antonio,61,RP,2 years,San Francisco Giants,R,R,Oklahoma
 31549,Will,Smith,30,6-5,248 lbs.,"July 10, 1989",Newnan,13,RP,6 years,San Francisco Giants,L,R,Gulf Coast CC FL
-35031,Andrew,Suarez,26,6-2,185 lbs.,"September 11, 1992",Miami,59,SP,1 year,San Francisco Giants,L,L,Miami
-31513,Tony,Watson,34,6-3,218 lbs.,"May 30, 1985",Sioux City,56,RP,8 years,San Francisco Giants,L,L,Nebraska
+35031,Andrew,Suarez,27,6-2,185 lbs.,"September 11, 1992",Miami,59,SP,1 year,San Francisco Giants,L,L,Miami
 41216,Logan,Webb,0,,,,,-1,,,,,,
 33714,Aramis,Garcia,26,6-2,195 lbs.,"January 12, 1993",Hialeah,16,C,1 year,San Francisco Giants,R,R,FIU
 30112,Buster,Posey,32,6-1,210 lbs.,"March 27, 1987",Leesburg,28,C,10 years,San Francisco Giants,R,R,Florida State
 31032,Stephen,Vogt,34,6-0,225 lbs.,"November 1, 1984",Visalia,21,C,6 years,San Francisco Giants,L,R,Azusa Pacific
+31659,Cristhian,Adames,28,6-0,185 lbs.,"July 26, 1991",Santo Domingo,14,SS,4 years,San Francisco Giants,B,R,None
 30901,Brandon,Belt,31,6-4,235 lbs.,"April 20, 1988",Nacogdoches,9,1B,8 years,San Francisco Giants,L,L,Texas
 30469,Brandon,Crawford,32,6-2,227 lbs.,"January 21, 1987",Mountain View,35,SS,8 years,San Francisco Giants,L,R,UCLA
 35304,Mauricio,Dubon,0,,,,,-1,,,,,,
-31250,Corban,Joseph,30,6-0,180 lbs.,"October 28, 1988",Franklin,46,2B,2 years,San Francisco Giants,L,R,None
 28639,Evan,Longoria,33,6-1,215 lbs.,"October 7, 1985",Downey,10,3B,11 years,San Francisco Giants,R,R,Long Beach State
 29703,Donovan,Solano,31,5-10,205 lbs.,"December 17, 1987",Barranquilla,7,SS,5 years,San Francisco Giants,R,R,None
 32956,Alex,Dickerson,29,6-3,235 lbs.,"May 26, 1990",Poway,8,LF,2 years,San Francisco Giants,L,L,Indiana
+33966,Mike,Gerber,27,6-0,190 lbs.,"July 8, 1992",Nashville,34,CF,1 year,San Francisco Giants,L,R,Creighton
 32859,Kevin,Pillar,30,6-0,210 lbs.,"January 4, 1989",West Hills,1,CF,6 years,San Francisco Giants,R,R,Cal State Dominguez Hills
 32952,Joey,Rickard,28,6-1,185 lbs.,"May 21, 1991",Las Vegas,37,RF,3 years,San Francisco Giants,R,L,Arizona
 36017,Chris,Shaw,25,6-3,248 lbs.,"October 20, 1993",Lexington,26,LF,1 year,San Francisco Giants,L,R,Boston College

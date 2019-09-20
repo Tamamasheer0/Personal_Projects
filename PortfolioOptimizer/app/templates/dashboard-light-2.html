@@ -15,6 +15,24 @@
     <title>Dashboard</title>
   </head>
 
+  <style>
+    .mainChartA {
+      height:60%;
+      width:70%;
+      display: block;
+      background-color: lightblue;
+    }
+
+    .mainChartB {
+      height:60%;
+      width:30%;
+      display:block;
+      background-color: lightblue;
+    }
+  </style>
+
+
+
   <body>
     <!-- [Start] Side Navigation Bar -->
     <div id="DashSideNav" class="SideNav">
@@ -48,10 +66,11 @@
       <div class="row bg-white">
         <!-- [Chart] Card Group #1 - Main Chart & Radar Chart -->
         <!--<div class="card-group">-->
-        <div class="col-lg-7 w-auto">
+        <div class="col-lg-7">
+          <div class="mainChartA">
           <!-- <div class="container"> -->
-          <div class="card shadow p-3 mb-5 bg-white info rounded">
-            <div class="row align-items-center justify-content-between no-gutters">
+          <div class="card">
+            <div class="container">
               <!-- Header Item #1 -- Label -->
 
               <h5 class="text-info">Efficient Frontier</h5>
@@ -87,32 +106,35 @@
               </div>
             </div>        <!-- Close Row -->
           </div>          <!-- Close Card 1 -->
+        </div>
         </div>            <!-- Close Column-7 -->
 
         <!-- Dashboard Chart #2 -->
         <div class="col-5 w-auto">
-          <div class="card shadow p-3 mb-5 bg-white rounded">
-            <div class="row align-items-center justify-content-between mb-0">
-              <div class="col-5 col-sm-auto d-flex align-items-center pr-0">
-                <h5 class="fs-0 mb-0 text-nowrap text-info py-2 py-xl-0">Metrics</h5>
+          <div class="mainChartB">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+              <div class="row align-items-center justify-content-between mb-0">
+                <div class="col-5 col-sm-auto d-flex align-items-center pr-0">
+                  <h5 class="fs-0 mb-0 text-nowrap text-info py-2 py-xl-0">Metrics</h5>
+                </div>
+
+
+                <!-- Header Item #2 - Button Group -->
+                <div id="dashboard-actions">
+                  <button class="btn btn-outline-info btn-md" onclick="addBenchmark()">S&P 500</button>
+                  <button class="btn btn-outline-info btn-md" onclick="resetRadar()">Reset</button>
+                      <!--
+                      <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-plus" data-fa-transform="shrink-3 down-2"></span><span class="d-none d-sm-inline-block ml-1">Add</span></button>
+                      <button class="btn btn-falcon-default btn-sm mx-2" type="button"><span class="fas fa-filter" data-fa-transform="shrink-3 down-2"></span><span class="d-none d-sm-inline-block ml-1">Filter</span></button>
+                      <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-external-link-alt" data-fa-transform="shrink-3 down-2"></span><span class="d-none d-sm-inline-block ml-1">Export</span></button>
+                    -->
+                </div>  <!-- [Close] Radar-Chart - Button Group -->
               </div>
-
-
-              <!-- Header Item #2 - Button Group -->
-              <div id="dashboard-actions">
-                <button class="btn btn-outline-info btn-md" onclick="addBenchmark()">S&P 500</button>
-                <button class="btn btn-outline-info btn-md" onclick="resetRadar()">Reset</button>
-                    <!--
-                    <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-plus" data-fa-transform="shrink-3 down-2"></span><span class="d-none d-sm-inline-block ml-1">Add</span></button>
-                    <button class="btn btn-falcon-default btn-sm mx-2" type="button"><span class="fas fa-filter" data-fa-transform="shrink-3 down-2"></span><span class="d-none d-sm-inline-block ml-1">Filter</span></button>
-                    <button class="btn btn-falcon-default btn-sm" type="button"><span class="fas fa-external-link-alt" data-fa-transform="shrink-3 down-2"></span><span class="d-none d-sm-inline-block ml-1">Export</span></button>
-                  -->
-              </div>  <!-- [Close] Radar-Chart - Button Group -->
-            </div>
-            <div class="row w-auto">
-              <div class="col">
-                <div class="card-body rounded-soft bg-white">
-                  <canvas id="chart-radar" class="rounded"></canvas>
+              <div class="row w-auto">
+                <div class="col">
+                  <div class="card-body rounded-soft bg-white">
+                    <canvas id="chart-radar" class="rounded"></canvas>
+                  </div>
                 </div>
               </div>
             </div>
