@@ -50,10 +50,10 @@ def home():
   return render_template("index.html")
 
 
-@app.route("/LightMode")
-def DashboardLight():
-  print("\n<Route> Render: Dashboard - Light")
-  return render_template("dashboard-light-2.html")
+@app.route("/test-svg")
+def TestPage_SVGPlot():
+  print("\n<Route> Render HTML Webpage: SVGPlot-EfficientFrontier.html", flush=True)
+  return render_template("SVGPlot-EfficientFrontier.html")
 
 
 @app.route("/defChartEF")

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+  <title>SVG Plot-Efficient Frontier</title>
+</head>
+
+<style>
+  #main {
+    display:block;
+    padding:10px;
+    border:0px;
+    margin:auto;
+  }
+  .headers {
+    display:block;
+    padding:5px;
+  }
+  .svg-chart {
+    background-color:darkgray;
+    display:block;
+
+    height:95%;
+    width:95%;
+    padding-top:15px;
+    padding-bottom:15px
+    border:5px;
+    margin:auto;
+  }
+  .circle {
+
+
+  }
+</style>
+
+<body>
+  <div class="col-lg bg-dark text-light">
+    <div class="row bg-dark">
+      <div class="container-fluid bg-dark text-light" id="main">
+        <h4>[HTML-Test-Page] SVG Plot-Efficient Frontier</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-lg bg-dark text-light">
+    <div class="row">
+      <h6 class="headers">Canvas Tag ID: "Efficient-Frontier-SVGChart"</h6>
+      <br /><hr>
+      <div class="container-fluid">
+        <canvas class="svg-chart" id="Efficient-Frontier"/>
+      </div>
+    </div>
+    <br />
+  </div>
+
+  <script>
+    /**********************************************************************************
+      D3 Custom Scatter Plot -- Efficient Forntier
+      <External JavaScript File Available: "/static/js/SVGScatterPlot.js"
+
+      Activity/Change Log:
+        <09/20/2019>
+            - Created File Established Basic Layouts
+
+        <09/21/2019>
+            - Working to Get Scatter Plot to Populate w/n Desired HTML Element Params.
+            - Update xMin, xMax, yMin, yMax to Pointer Functions
+            - Temporariy Created a Data Generation Function to Populate Graph With
+    **********************************************************************************/
+    console.log("<JavaScript> [Prototype] D3-SVG-ScatterPlot")
+
+    var margin = { top:50, bottom:50 , left:25, right:25}
+    var svgHeight = parseInt(d3.select("SVG-Main").style("height"));
+    var svgWidth = parseInt(d3.select("SVG-Main").style("width"));
+
+    var chartHeight =  svgHeight - margin.top - margin.bottom;
+    var chartWidth = svgWidth - margin.left - margin.right;
+    var svgArea = d3.select("Efficient-Frontier")
+                    .append("svg")
+                    .attr("height", svgHeight)
+                    .attr("width", svgWidth)
+                    .attr("class", "chart")
+
+    var chartArea = svg.append("g")
+                      .attr(
+                      "transform",
+                      `translate(${margin.left},${margin.right})`
+                    )
+    var xAxisGroup = chartArea.append("g")
+                      .transition()
+                      .duration(1500)
+                      .attr("class", "x-axis")
+                      .attr(
+                        "transform",
+                        `translate(${chartHeight, 0}`
+                      )
+    var yAxisGroup = chartArea.append("g")
+                      .transition()
+                      .duration(1500)
+                      .attr("class", "y-axis")
+                      .attr(
+                        "transform",
+                        `translate(${margin.left}, 0)`
+                      )
+    var xAxisScale = d3.scaleLinear().range([0, chartWidth])
+    var yAxisScale = d3.scaleLinear().range([chartHeight, 0])
+
+    var linTestData = []
+    var expTestData = []
+    var cubTestData = []
+
+    function genTestData(){
+      console.log("<Function> Generating Test Data")
+      for (var x = 1; 10; i++){
+        linTestData.push({"x":x, "y": x})
+        expTestData.push({"x":x, "y": x^2})
+        cubTestData.push({"x":x, "y": x^3})
+      }
+      console.log(`Linear Data: ${linTestData}`)
+      console.log(`Exponential Data: ${expTestData}`)
+      console.log(`Cubic Data: ${cubTestData}`)
+    }
+
+  function update(data){
+
+    var xMin = d3.min(data, d => parseInt(d.x * .90));
+    var xMax = d3.max(data, d => parseInt(d.x * 1.10));
+    var yMin = d3.min(data, d => parseInt(d.y * .90));
+    var yMax = d3.max(data, d => parseInt(d.y * 1.10));
+
+    xAxisScale.domain(xMin, xMax)
+    yAxisScale.domain(0, d3.max(data))
+
+    var xAxis = d3.axisBottom(xAxisScale)
+    var yAxis = d3.axisLeft(yAxisScale)
+
+
+  }
+
+
+  </script>
+
+
+
+
+  <!-- JavaScript Add-in/Pluggin References -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"/>
+
+
+</body>
+
+</html>
